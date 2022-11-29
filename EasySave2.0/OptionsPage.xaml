@@ -1,0 +1,59 @@
+﻿<Window x:Class="EasySave2._0.OptionPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave2._0"
+        mc:Ignorable="d"
+        Title="OptionPage" Height="482" Width="635">
+    <Window.Background>
+        <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
+    </Window.Background>
+    <Grid>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/OptionsTitle.png"/>
+        <Image HorizontalAlignment="Left" Height="68" Margin="162,116,0,0" VerticalAlignment="Top" Width="100" Source="/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.281"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.245"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="68" Margin="373,116,0,0" VerticalAlignment="Top" Width="111" Source="/EnglishFlag.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.281"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.245"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="136,144,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
+        <RadioButton x:Name="EnglishButton" Content="" HorizontalAlignment="Left" Margin="345,144,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
+        <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/MenuButton.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.281"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.245"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="DestinationDefault" HorizontalAlignment="Left" Height="47" Margin="71,280,0,0" VerticalAlignment="Top" Width="268" Source="/button_destination-par-default.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.281"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.245"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <ProgressBar HorizontalAlignment="Left" Height="18" Margin="383,292,0,0" VerticalAlignment="Top" Width="180"/>
+    </Grid>
+</Window>

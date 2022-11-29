@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,13 +14,18 @@ using System.Windows.Shapes;
 namespace EasySave2._0
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class OptionPage : Window
     {
-        public MainWindow()
+        public OptionPage()
         {
-            InitializeComponent();
+            
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

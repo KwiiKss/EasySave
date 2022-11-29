@@ -13,6 +13,9 @@
     <None Remove="ButtonShow.png" />
     <None Remove="button_create %281%29.png" />
     <None Remove="button_create.png" />
+    <None Remove="button_destination-par-default.png" />
+    <None Remove="button_destination-pour-les-logs.png" />
+    <None Remove="button_menu.png" />
     <None Remove="button_options.png" />
     <None Remove="button_show %281%29.png" />
     <None Remove="button_show.png" />
@@ -21,17 +24,33 @@
     <None Remove="CreateBoutton.png" />
     <None Remove="EasySave-29-11-2022 %281%29.png" />
     <None Remove="EasySave-29-11-2022.png" />
+    <None Remove="EasySaveTitle.png" />
     <None Remove="EasySavetitre.png" />
+    <None Remove="EnglishFlag.png" />
+    <None Remove="Flag_of_Great_Britain_%281707–1800%29.svg.png" />
+    <None Remove="FrenchFlag.jpg" />
     <None Remove="Logo.png" />
     <None Remove="LogoES.png" />
+    <None Remove="MenuButton.png" />
+    <None Remove="Options-29-11-2022.png" />
+    <None Remove="OptionsTitle.png" />
+    <None Remove="ReturnButton.png" />
+    <None Remove="s-l1600.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="ButtonCreate.png" />
     <Resource Include="ButtonOptions.png" />
     <Resource Include="ButtonShow.png" />
-    <Resource Include="EasySavetitre.png" />
+    <Resource Include="button_destination-par-default.png" />
+    <Resource Include="button_destination-pour-les-logs.png" />
+    <Resource Include="EasySaveTitle.png" />
+    <Resource Include="EnglishFlag.png" />
+    <Resource Include="FrenchFlag.jpg" />
     <Resource Include="Logo.png" />
+    <Resource Include="MenuButton.png" />
+    <Resource Include="OptionsTitle.png" />
+    <Resource Include="ReturnButton.png" />
   </ItemGroup>
 
 </Project>
