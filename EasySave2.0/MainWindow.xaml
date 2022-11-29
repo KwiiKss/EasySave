@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasySave2._0"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="466" Width="635">
+    <Window.Background>
+        <SolidColorBrush Opacity="1" Color="MediumPurple"></SolidColorBrush>
+    </Window.Background>
     <Grid>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="Titre" HorizontalAlignment="Left" Height="106" Margin="152,16,0,0" VerticalAlignment="Top" Width="344" Source="/EasySavetitre.png"/>
+        <Image x:Name="Create" HorizontalAlignment="Left" Height="65" Margin="91,166,0,0" VerticalAlignment="Top" Width="160" Source="/ButtonCreate.png"/>
+        <Image x:Name="Show" HorizontalAlignment="Left" Height="65" Margin="390,165,0,0" VerticalAlignment="Top" Width="144" Source="/ButtonShow.png"/>
+        <Image x:Name="Options" HorizontalAlignment="Center" Height="65" Margin="0,272,0,0" VerticalAlignment="Top" Width="176" Source="/ButtonOptions.png"/>
+        <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="525,411,0,0" VerticalAlignment="Top" Width="100" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="16" Height="29"/>
+        <Label x:Name="Credits" Content="EasySave © by ProSoft" HorizontalAlignment="Left" Margin="10,408,0,0" VerticalAlignment="Top" Width="193" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="16" Height="32"/>
 
     </Grid>
 </Window>
