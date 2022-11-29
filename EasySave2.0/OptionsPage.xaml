@@ -55,5 +55,6 @@
             </Image.RenderTransform>
         </Image>
         <ProgressBar HorizontalAlignment="Left" Height="18" Margin="383,292,0,0" VerticalAlignment="Top" Width="180"/>
+        <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
     </Grid>
 </Window>

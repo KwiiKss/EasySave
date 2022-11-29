@@ -46,6 +46,10 @@
     <None Remove="PathDestination.png" />
     <None Remove="ReturnButton.png" />
     <None Remove="s-l1600.jpg" />
+    <None Remove="welcome-29-11-2022.png" />
+    <None Remove="welcome-Bienvenue-29-11-2022.png" />
+    <None Remove="WelcomeBienTitle.png" />
+    <None Remove="WelcomeTitle.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -63,6 +67,7 @@
     <Resource Include="OptionsTitle.png" />
     <Resource Include="PathDestination.png" />
     <Resource Include="ReturnButton.png" />
+    <Resource Include="WelcomeBienTitle.png" />
   </ItemGroup>
 
 </Project>

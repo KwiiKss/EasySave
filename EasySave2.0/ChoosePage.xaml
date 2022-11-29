@@ -15,6 +15,7 @@
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="546,30,0,0" VerticalAlignment="Top" Width="66" Source="/ReturnButton.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="MoveFileButt" HorizontalAlignment="Center" Height="65" Margin="0,143,0,0" VerticalAlignment="Top" Width="205" Source="/MoveFileButton.png"/>
         <Image x:Name="MoveFolderButt" HorizontalAlignment="Center" Height="64" Margin="0,286,0,0" VerticalAlignment="Top" Width="243" Source="/MoveFolderButton.png"/>
+        <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
 
     </Grid>
 </Window>
