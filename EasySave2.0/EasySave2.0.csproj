@@ -30,19 +30,8 @@
     <Resource Include="ButtonCreate.png" />
     <Resource Include="ButtonOptions.png" />
     <Resource Include="ButtonShow.png" />
-    <Resource Include="button_create (1).png" />
-    <Resource Include="button_create.png" />
-    <Resource Include="button_options.png" />
-    <Resource Include="button_show (1).png" />
-    <Resource Include="button_show.png" />
-    <Resource Include="Create-29-11-2022 (1).png" />
-    <Resource Include="Create-29-11-2022.png" />
-    <Resource Include="CreateBoutton.png" />
-    <Resource Include="EasySave-29-11-2022 (1).png" />
-    <Resource Include="EasySave-29-11-2022.png" />
     <Resource Include="EasySavetitre.png" />
     <Resource Include="Logo.png" />
-    <Resource Include="LogoES.png" />
   </ItemGroup>
 
 </Project>
