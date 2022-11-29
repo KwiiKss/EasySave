@@ -44,7 +44,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="DestinationDefault" HorizontalAlignment="Left" Height="47" Margin="71,280,0,0" VerticalAlignment="Top" Width="268" Source="/button_destination-par-default.png" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="DestinationDefault" HorizontalAlignment="Left" Height="47" Margin="71,280,0,0" VerticalAlignment="Top" Width="268" Source="/PathDestination.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

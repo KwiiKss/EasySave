@@ -43,6 +43,7 @@
     <None Remove="MoveFolderButton.png" />
     <None Remove="Options-29-11-2022.png" />
     <None Remove="OptionsTitle.png" />
+    <None Remove="PathDestination.png" />
     <None Remove="ReturnButton.png" />
     <None Remove="s-l1600.jpg" />
   </ItemGroup>
@@ -51,22 +52,16 @@
     <Resource Include="ButtonCreate.png" />
     <Resource Include="ButtonOptions.png" />
     <Resource Include="ButtonShow.png" />
-    <Resource Include="button_choose-your-content.png" />
-    <Resource Include="button_destination-par-default.png" />
-    <Resource Include="button_destination-pour-les-logs.png" />
-    <Resource Include="button_move-file.png" />
-    <Resource Include="button_move-folder.png" />
-    <Resource Include="button_move-your-content.png" />
     <Resource Include="ChoosePageTitle.png" />
     <Resource Include="EasySaveTitle.png" />
     <Resource Include="EnglishFlag.png" />
     <Resource Include="FrenchFlag.jpg" />
     <Resource Include="Logo.png" />
     <Resource Include="MenuButton.png" />
-    <Resource Include="Move-your-content-29-11-2022.png" />
     <Resource Include="MoveFileButton.png" />
     <Resource Include="MoveFolderButton.png" />
     <Resource Include="OptionsTitle.png" />
+    <Resource Include="PathDestination.png" />
     <Resource Include="ReturnButton.png" />
   </ItemGroup>
 

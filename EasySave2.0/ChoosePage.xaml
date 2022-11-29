@@ -11,7 +11,7 @@
     </Window.Background>
     <Grid>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/Logo.png" RenderTransformOrigin="1.626,0.47"/>
-        <Image x:Name="ChoosePageTitle" HorizontalAlignment="Center" Height="96" Margin="0,10,0,0" VerticalAlignment="Top" Width="439" Source="/Move-your-content-29-11-2022.png"/>
+        <Image x:Name="ChoosePageTitle" HorizontalAlignment="Center" Height="96" Margin="0,10,0,0" VerticalAlignment="Top" Width="439" Source="/ChoosePageTitle.png"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="546,30,0,0" VerticalAlignment="Top" Width="66" Source="/ReturnButton.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="MoveFileButt" HorizontalAlignment="Center" Height="65" Margin="0,143,0,0" VerticalAlignment="Top" Width="205" Source="/MoveFileButton.png"/>
         <Image x:Name="MoveFolderButt" HorizontalAlignment="Center" Height="64" Margin="0,286,0,0" VerticalAlignment="Top" Width="243" Source="/MoveFolderButton.png"/>
