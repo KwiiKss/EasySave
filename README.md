@@ -51,7 +51,7 @@ Note also the presence of **include** and **extend**:
 ## `Published versions` :
 
 ### Console version
-* EasySave 1.0 - 25/11/2022
+* EasySave 1.0 - 25/11/2022 - https://github.com/KwiiKss/EasySave-1.0
 * EasySave 1.1 - Not Yet
 
 ### Graphic version
