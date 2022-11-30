@@ -22,7 +22,6 @@ namespace EasySave2._0
     {
         public MenuPage()
         {
-          
         }
     }
 }
