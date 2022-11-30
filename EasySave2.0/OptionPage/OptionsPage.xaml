@@ -12,7 +12,7 @@
     <Grid>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/OptionPage/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/OptionPage/OptionsTitle.png"/>
-        <Image HorizontalAlignment="Left" Height="68" Margin="162,116,0,0" VerticalAlignment="Top" Width="100" Source="/OptionPage/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="68" Margin="168,172,0,0" VerticalAlignment="Top" Width="100" Source="/OptionPage/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,7 +22,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image HorizontalAlignment="Left" Height="68" Margin="373,116,0,0" VerticalAlignment="Top" Width="111" Source="/OptionPage/EnglishFlag.png" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="EnglishFlag" HorizontalAlignment="Left" Height="68" Margin="382,172,0,0" VerticalAlignment="Top" Width="111" Source="/OptionPage/EnglishFlag.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -32,8 +32,8 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="136,144,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
-        <RadioButton x:Name="EnglishButton" Content="" HorizontalAlignment="Left" Margin="345,144,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
+        <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="133,198,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
+        <RadioButton x:Name="EnglishButton" Content="" HorizontalAlignment="Left" Margin="344,198,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/OptionPage/MenuButton.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
@@ -44,17 +44,9 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="DestinationDefault" HorizontalAlignment="Left" Height="47" Margin="71,280,0,0" VerticalAlignment="Top" Width="268" Source="/OptionPage/PathDestination.png" RenderTransformOrigin="0.5,0.5">
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="0.281"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="0.245"/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
-        <ProgressBar HorizontalAlignment="Left" Height="18" Margin="383,292,0,0" VerticalAlignment="Top" Width="180"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
+        <Label x:Name="LanguageText" Content="Change your language : " HorizontalAlignment="Left" Margin="124,121,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
+        <Label x:Name="ChangePath" Content="Change your default path : " HorizontalAlignment="Left" Margin="124,290,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
+        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="307,296,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
     </Grid>
 </Window>
