@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\**" />
+    <EmbeddedResource Remove="Pages\**" />
+    <None Remove="Pages\**" />
+    <Page Remove="Pages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="ButtonCreate.png" />
     <None Remove="ButtonOptions.png" />
     <None Remove="ButtonShow.png" />
@@ -25,6 +32,11 @@
     <None Remove="button_show.png" />
     <None Remove="Choose-your-save-29-11-2022.png" />
     <None Remove="ChoosePageTitle.png" />
+    <None Remove="ChoosePage\ChoosePageTitle.png" />
+    <None Remove="ChoosePage\Logo.png" />
+    <None Remove="ChoosePage\MoveFileButton.png" />
+    <None Remove="ChoosePage\MoveFolderButton.png" />
+    <None Remove="ChoosePage\ReturnButton.png" />
     <None Remove="Create-29-11-2022 %281%29.png" />
     <None Remove="Create-29-11-2022.png" />
     <None Remove="CreateBoutton.png" />
@@ -38,9 +50,21 @@
     <None Remove="Logo.png" />
     <None Remove="LogoES.png" />
     <None Remove="MenuButton.png" />
+    <None Remove="MenuPage\ButtonCreate.png" />
+    <None Remove="MenuPage\ButtonOptions.png" />
+    <None Remove="MenuPage\ButtonShow.png" />
+    <None Remove="MenuPage\EasySaveTitle.png" />
+    <None Remove="MenuPage\Logo.png" />
+    <None Remove="MenuPage\MenuButton.png" />
     <None Remove="Move-your-content-29-11-2022.png" />
     <None Remove="MoveFileButton.png" />
     <None Remove="MoveFolderButton.png" />
+    <None Remove="OptionPage\EnglishFlag.png" />
+    <None Remove="OptionPage\FrenchFlag.jpg" />
+    <None Remove="OptionPage\Logo.png" />
+    <None Remove="OptionPage\MenuButton.png" />
+    <None Remove="OptionPage\OptionsTitle.png" />
+    <None Remove="OptionPage\PathDestination.png" />
     <None Remove="Options-29-11-2022.png" />
     <None Remove="OptionsTitle.png" />
     <None Remove="PathDestination.png" />
@@ -49,25 +73,34 @@
     <None Remove="welcome-29-11-2022.png" />
     <None Remove="welcome-Bienvenue-29-11-2022.png" />
     <None Remove="WelcomeBienTitle.png" />
+    <None Remove="WelcomePage\EasySaveTitle.png" />
+    <None Remove="WelcomePage\EnglishFlag.png" />
+    <None Remove="WelcomePage\FrenchFlag.jpg" />
+    <None Remove="WelcomePage\WelcomeBienTitle.png" />
     <None Remove="WelcomeTitle.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ButtonCreate.png" />
-    <Resource Include="ButtonOptions.png" />
-    <Resource Include="ButtonShow.png" />
-    <Resource Include="ChoosePageTitle.png" />
-    <Resource Include="EasySaveTitle.png" />
-    <Resource Include="EnglishFlag.png" />
-    <Resource Include="FrenchFlag.jpg" />
-    <Resource Include="Logo.png" />
-    <Resource Include="MenuButton.png" />
-    <Resource Include="MoveFileButton.png" />
-    <Resource Include="MoveFolderButton.png" />
-    <Resource Include="OptionsTitle.png" />
-    <Resource Include="PathDestination.png" />
-    <Resource Include="ReturnButton.png" />
-    <Resource Include="WelcomeBienTitle.png" />
+    <Resource Include="ChoosePage\ChoosePageTitle.png" />
+    <Resource Include="ChoosePage\Logo.png" />
+    <Resource Include="ChoosePage\MoveFileButton.png" />
+    <Resource Include="ChoosePage\MoveFolderButton.png" />
+    <Resource Include="ChoosePage\ReturnButton.png" />
+    <Resource Include="MenuPage\ButtonCreate.png" />
+    <Resource Include="MenuPage\ButtonOptions.png" />
+    <Resource Include="MenuPage\ButtonShow.png" />
+    <Resource Include="MenuPage\EasySaveTitle.png" />
+    <Resource Include="MenuPage\Logo.png" />
+    <Resource Include="OptionPage\EnglishFlag.png" />
+    <Resource Include="OptionPage\FrenchFlag.jpg" />
+    <Resource Include="OptionPage\Logo.png" />
+    <Resource Include="OptionPage\MenuButton.png" />
+    <Resource Include="OptionPage\OptionsTitle.png" />
+    <Resource Include="OptionPage\PathDestination.png" />
+    <Resource Include="WelcomePage\EasySaveTitle.png" />
+    <Resource Include="WelcomePage\EnglishFlag.png" />
+    <Resource Include="WelcomePage\FrenchFlag.jpg" />
+    <Resource Include="WelcomePage\WelcomeBienTitle.png" />
   </ItemGroup>
 
 </Project>

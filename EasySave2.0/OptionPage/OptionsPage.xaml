@@ -10,9 +10,9 @@
         <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
     </Window.Background>
     <Grid>
-        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/Logo.png" RenderTransformOrigin="1.626,0.47"/>
-        <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/OptionsTitle.png"/>
-        <Image HorizontalAlignment="Left" Height="68" Margin="162,116,0,0" VerticalAlignment="Top" Width="100" Source="/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/OptionPage/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/OptionPage/OptionsTitle.png"/>
+        <Image HorizontalAlignment="Left" Height="68" Margin="162,116,0,0" VerticalAlignment="Top" Width="100" Source="/OptionPage/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,7 +22,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image HorizontalAlignment="Left" Height="68" Margin="373,116,0,0" VerticalAlignment="Top" Width="111" Source="/EnglishFlag.png" RenderTransformOrigin="0.5,0.5">
+        <Image HorizontalAlignment="Left" Height="68" Margin="373,116,0,0" VerticalAlignment="Top" Width="111" Source="/OptionPage/EnglishFlag.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -34,7 +34,7 @@
         </Image>
         <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="136,144,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
         <RadioButton x:Name="EnglishButton" Content="" HorizontalAlignment="Left" Margin="345,144,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
-        <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/MenuButton.png" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/OptionPage/MenuButton.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -44,7 +44,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="DestinationDefault" HorizontalAlignment="Left" Height="47" Margin="71,280,0,0" VerticalAlignment="Top" Width="268" Source="/PathDestination.png" RenderTransformOrigin="0.5,0.5">
+        <Image x:Name="DestinationDefault" HorizontalAlignment="Left" Height="47" Margin="71,280,0,0" VerticalAlignment="Top" Width="268" Source="/OptionPage/PathDestination.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
