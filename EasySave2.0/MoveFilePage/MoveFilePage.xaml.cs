@@ -38,5 +38,7 @@ namespace EasySave2._0
             this.Close();
             window.Show();
         }
+
+
     }
 }

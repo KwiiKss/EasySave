@@ -35,5 +35,9 @@ namespace EasySave2._0
             this.Close();
             window.Show();
         }
+        public void AddExtension(object sender, MouseButtonEventArgs e)
+        {
+            string Extension_Name = Extension.Text;
+        }
     }
 }
