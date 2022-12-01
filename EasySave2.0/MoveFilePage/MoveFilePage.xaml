@@ -31,5 +31,9 @@
         <TextBox x:Name="DestinationFile" HorizontalAlignment="Left" Margin="128,315,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="SuccessText" Content="The file has been successfully moved !" HorizontalAlignment="Left" Margin="376,205,0,0" VerticalAlignment="Top" Width="240" FontFamily="Segoe UI Black" FontWeight="Normal" Height="26" Foreground="#FFFDFDFD"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="546,30,0,0" VerticalAlignment="Top" Width="66" Source="/MoveFilePage/ReturnButton.png" RenderTransformOrigin="1.626,0.47"/>
+        <Button x:Name="Switch" Content="Switch" HorizontalAlignment="Left" Margin="417,280,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="SourceText_Copy" Content="exemple : C:\Users\corso\OneDrive\Bureau\exel\" HorizontalAlignment="Left" Margin="124,256,0,0" VerticalAlignment="Top" Width="308" FontFamily="Segoe UI Black" FontWeight="Normal" Height="24" Foreground="#FFFDFDFD"/>
+        <Label x:Name="SourceText_Copy1" Content="exemple : C:\Users\corso\OneDrive\Bureau\exel\" HorizontalAlignment="Left" Margin="124,338,0,0" VerticalAlignment="Top" Width="308" FontFamily="Segoe UI Black" FontWeight="Normal" Height="24" Foreground="#FFFDFDFD"/>
+        <Label x:Name="Loading" Content="DON'T Touch!" HorizontalAlignment="Left" Margin="152,0,0,0" VerticalAlignment="Center" Height="142" Width="344" FontSize="48" Visibility="Hidden"/>
     </Grid>
 </Window>
