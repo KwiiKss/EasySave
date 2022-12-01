@@ -20,6 +20,34 @@ namespace EasySave2._0
     {
         public ChoosePage()
         {
+            InitializeComponent();
+        }
+
+        private void ReturnButt(object sender, MouseButtonEventArgs e)
+        {
+            MenuPage window = new MenuPage();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
+
+        private void MoveFile(object sender, MouseButtonEventArgs e)
+        {
+            MoveFilePage window = new MoveFilePage();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
+
+        private void MoveFolder(object sender, MouseButtonEventArgs e)
+        {
+            MoveFolderPage window = new MoveFolderPage();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
         }
     }
 }

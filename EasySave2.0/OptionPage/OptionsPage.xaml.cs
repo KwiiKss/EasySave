@@ -20,12 +20,20 @@ namespace EasySave2._0
     {
         public OptionPage()
         {
-            
+            InitializeComponent();
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
 
+        }
+        private void MenuPage(object sender, MouseButtonEventArgs e)
+        {
+            MenuPage window = new MenuPage();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
         }
     }
 }

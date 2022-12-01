@@ -22,6 +22,32 @@ namespace EasySave2._0
     {
         public MenuPage()
         {
+            InitializeComponent();
+        }
+
+        private void ChoosePage(object sender, MouseButtonEventArgs e)
+        {
+            ChoosePage window = new ChoosePage();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
+        //private void ShowPage(object sender, MouseButtonEventArgs e)
+        //{
+        //    ShowPage window = new ShowPage();
+        //    window.Top = this.Top;
+        //    window.Left = this.Left;
+        //    this.Close();
+        //    window.Show();
+        //}
+        private void OptionPage(object sender, MouseButtonEventArgs e)
+        {
+            OptionPage window = new OptionPage();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
         }
     }
 }
