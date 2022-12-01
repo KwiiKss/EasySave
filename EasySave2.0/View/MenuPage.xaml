@@ -10,11 +10,11 @@
         <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
     </Window.Background>
     <Grid>
-        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/MenuPage/Logo.png" RenderTransformOrigin="1.626,0.47"/>
-        <Image x:Name="TitleMenu" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="344" Source="/MenuPage/EasySaveTitle.png"/>
-        <Image x:Name="CreateButt" HorizontalAlignment="Left" Height="65" Margin="91,166,0,0" VerticalAlignment="Top" Width="160" Source="/MenuPage/ButtonCreate.png" MouseDown="ChoosePage"/>
-        <Image x:Name="ShowButt" HorizontalAlignment="Left" Height="65" Margin="390,165,0,0" VerticalAlignment="Top" Width="144" Source="/MenuPage/ButtonShow.png" />
-        <Image x:Name="OptionsButt" HorizontalAlignment="Center" Height="65" Margin="0,272,0,0" VerticalAlignment="Top" Width="176" Source="/MenuPage/ButtonOptions.png" MouseDown="OptionPage"/>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="TitleMenu" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="344" Source="/View/EasySaveTitle.png"/>
+        <Image x:Name="CreateButt" HorizontalAlignment="Left" Height="65" Margin="91,166,0,0" VerticalAlignment="Top" Width="160" Source="/View/ButtonCreate.png" MouseDown="ChoosePage"/>
+        <Image x:Name="ShowButt" HorizontalAlignment="Left" Height="65" Margin="390,165,0,0" VerticalAlignment="Top" Width="144" Source="/View/ButtonShow.png" />
+        <Image x:Name="OptionsButt" HorizontalAlignment="Center" Height="65" Margin="0,272,0,0" VerticalAlignment="Top" Width="176" Source="/View/ButtonOptions.png" MouseDown="OptionPage"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="Credits" Content="EasySave © by ProSoft - Kévin | Kilyion | Hugo | Nicolas" HorizontalAlignment="Left" Margin="10,418,0,0" VerticalAlignment="Top" Width="349" FontFamily="Segoe UI Black" FontWeight="Normal" Height="22" Foreground="White" FontSize="9"/>
 

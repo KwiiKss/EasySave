@@ -8,10 +8,34 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ChoosePage\**" />
+    <Compile Remove="MenuPage\**" />
+    <Compile Remove="MoveFilePage\**" />
+    <Compile Remove="MoveFolderPage\**" />
+    <Compile Remove="OptionPage\**" />
     <Compile Remove="Pages\**" />
+    <Compile Remove="WelcomePage\**" />
+    <EmbeddedResource Remove="ChoosePage\**" />
+    <EmbeddedResource Remove="MenuPage\**" />
+    <EmbeddedResource Remove="MoveFilePage\**" />
+    <EmbeddedResource Remove="MoveFolderPage\**" />
+    <EmbeddedResource Remove="OptionPage\**" />
     <EmbeddedResource Remove="Pages\**" />
+    <EmbeddedResource Remove="WelcomePage\**" />
+    <None Remove="ChoosePage\**" />
+    <None Remove="MenuPage\**" />
+    <None Remove="MoveFilePage\**" />
+    <None Remove="MoveFolderPage\**" />
+    <None Remove="OptionPage\**" />
     <None Remove="Pages\**" />
+    <None Remove="WelcomePage\**" />
+    <Page Remove="ChoosePage\**" />
+    <Page Remove="MenuPage\**" />
+    <Page Remove="MoveFilePage\**" />
+    <Page Remove="MoveFolderPage\**" />
+    <Page Remove="OptionPage\**" />
     <Page Remove="Pages\**" />
+    <Page Remove="WelcomePage\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,11 +56,6 @@
     <None Remove="button_show.png" />
     <None Remove="Choose-your-save-29-11-2022.png" />
     <None Remove="ChoosePageTitle.png" />
-    <None Remove="ChoosePage\ChoosePageTitle.png" />
-    <None Remove="ChoosePage\Logo.png" />
-    <None Remove="ChoosePage\MoveFileButton.png" />
-    <None Remove="ChoosePage\MoveFolderButton.png" />
-    <None Remove="ChoosePage\ReturnButton.png" />
     <None Remove="Create-29-11-2022 %281%29.png" />
     <None Remove="Create-29-11-2022.png" />
     <None Remove="CreateBoutton.png" />
@@ -50,76 +69,55 @@
     <None Remove="Logo.png" />
     <None Remove="LogoES.png" />
     <None Remove="MenuButton.png" />
-    <None Remove="MenuPage\ButtonCreate.png" />
-    <None Remove="MenuPage\ButtonOptions.png" />
-    <None Remove="MenuPage\ButtonShow.png" />
-    <None Remove="MenuPage\EasySaveTitle.png" />
-    <None Remove="MenuPage\Logo.png" />
-    <None Remove="MenuPage\MenuButton.png" />
     <None Remove="Move-File-30-11-2022.png" />
     <None Remove="Move-Folder-30-11-2022.png" />
     <None Remove="Move-your-content-29-11-2022.png" />
     <None Remove="MoveFileButton.png" />
-    <None Remove="MoveFilePage\Logo.png" />
-    <None Remove="MoveFilePage\MenuButton.png" />
-    <None Remove="MoveFilePage\MoveFileTitle.png" />
-    <None Remove="MoveFilePage\ReturnButton.png" />
     <None Remove="MoveFolderButton.png" />
-    <None Remove="MoveFolderPage\Logo.png" />
-    <None Remove="MoveFolderPage\MenuButton.png" />
-    <None Remove="MoveFolderPage\MoveFolderPage.png" />
-    <None Remove="MoveFolderPage\ReturnButton.png" />
-    <None Remove="OptionPage\button_default-path.png" />
-    <None Remove="OptionPage\EnglishFlag.png" />
-    <None Remove="OptionPage\FrenchFlag.jpg" />
-    <None Remove="OptionPage\Logo.png" />
-    <None Remove="OptionPage\MenuButton.png" />
-    <None Remove="OptionPage\OptionsTitle.png" />
-    <None Remove="OptionPage\PathDestination.png" />
-    <None Remove="OptionPage\PathTitle.png" />
     <None Remove="Options-29-11-2022.png" />
     <None Remove="OptionsTitle.png" />
     <None Remove="PathDestination.png" />
     <None Remove="ReturnButton.png" />
     <None Remove="s-l1600.jpg" />
+    <None Remove="View\ButtonCreate.png" />
+    <None Remove="View\ButtonOptions.png" />
+    <None Remove="View\ButtonShow.png" />
+    <None Remove="View\ChoosePageTitle.png" />
+    <None Remove="View\EasySaveTitle.png" />
+    <None Remove="View\EnglishFlag.png" />
+    <None Remove="View\FrenchFlag.jpg" />
+    <None Remove="View\Logo.png" />
+    <None Remove="View\MenuButton.png" />
+    <None Remove="View\MoveFileButton.png" />
+    <None Remove="View\MoveFileTitle.png" />
+    <None Remove="View\MoveFolderButton.png" />
+    <None Remove="View\MoveFolderPage.png" />
+    <None Remove="View\OptionsTitle.png" />
+    <None Remove="View\ReturnButton.png" />
+    <None Remove="View\WelcomeBienTitle.png" />
     <None Remove="welcome-29-11-2022.png" />
     <None Remove="welcome-Bienvenue-29-11-2022.png" />
     <None Remove="WelcomeBienTitle.png" />
-    <None Remove="WelcomePage\EasySaveTitle.png" />
-    <None Remove="WelcomePage\EnglishFlag.png" />
-    <None Remove="WelcomePage\FrenchFlag.jpg" />
-    <None Remove="WelcomePage\WelcomeBienTitle.png" />
     <None Remove="WelcomeTitle.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ChoosePage\ChoosePageTitle.png" />
-    <Resource Include="ChoosePage\Logo.png" />
-    <Resource Include="ChoosePage\MoveFileButton.png" />
-    <Resource Include="ChoosePage\MoveFolderButton.png" />
-    <Resource Include="ChoosePage\ReturnButton.png" />
-    <Resource Include="MenuPage\ButtonCreate.png" />
-    <Resource Include="MenuPage\ButtonOptions.png" />
-    <Resource Include="MenuPage\ButtonShow.png" />
-    <Resource Include="MenuPage\EasySaveTitle.png" />
-    <Resource Include="MenuPage\Logo.png" />
-    <Resource Include="MoveFilePage\Logo.png" />
-    <Resource Include="MoveFilePage\MenuButton.png" />
-    <Resource Include="MoveFilePage\MoveFileTitle.png" />
-    <Resource Include="MoveFilePage\ReturnButton.png" />
-    <Resource Include="MoveFolderPage\Logo.png" />
-    <Resource Include="MoveFolderPage\MenuButton.png" />
-    <Resource Include="MoveFolderPage\MoveFolderPage.png" />
-    <Resource Include="MoveFolderPage\ReturnButton.png" />
-    <Resource Include="OptionPage\EnglishFlag.png" />
-    <Resource Include="OptionPage\FrenchFlag.jpg" />
-    <Resource Include="OptionPage\Logo.png" />
-    <Resource Include="OptionPage\MenuButton.png" />
-    <Resource Include="OptionPage\OptionsTitle.png" />
-    <Resource Include="WelcomePage\EasySaveTitle.png" />
-    <Resource Include="WelcomePage\EnglishFlag.png" />
-    <Resource Include="WelcomePage\FrenchFlag.jpg" />
-    <Resource Include="WelcomePage\WelcomeBienTitle.png" />
+    <Resource Include="View\ButtonCreate.png" />
+    <Resource Include="View\ButtonOptions.png" />
+    <Resource Include="View\ButtonShow.png" />
+    <Resource Include="View\ChoosePageTitle.png" />
+    <Resource Include="View\EasySaveTitle.png" />
+    <Resource Include="View\EnglishFlag.png" />
+    <Resource Include="View\FrenchFlag.jpg" />
+    <Resource Include="View\Logo.png" />
+    <Resource Include="View\MenuButton.png" />
+    <Resource Include="View\MoveFileButton.png" />
+    <Resource Include="View\MoveFileTitle.png" />
+    <Resource Include="View\MoveFolderButton.png" />
+    <Resource Include="View\MoveFolderPage.png" />
+    <Resource Include="View\OptionsTitle.png" />
+    <Resource Include="View\ReturnButton.png" />
+    <Resource Include="View\WelcomeBienTitle.png" />
   </ItemGroup>
 
 </Project>
