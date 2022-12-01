@@ -16,7 +16,7 @@
         <Label x:Name="DescriptionTxt" Content="Backup Software. Save what you want where you want !&#xD;&#xA;Developed in november 2022.&#xD;&#xA;&#xD;&#xA;EasySave © by ProSoft - Kévin | Kilyion | Hugo | Nicolas" HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" Width="349" FontFamily="Segoe UI Black" FontWeight="Normal" Height="83" Foreground="White"/>
         <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="56" VerticalAlignment="Top" Width="85" Source="/View/FrenchFlag.jpg" Margin="202,383,0,0"/>
         <Image x:Name="EnglishFlag" HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="92" Source="/View/EnglishFlag.png" Margin="332,384,0,0" MouseDown="EnglishMenu"/>
-        <Label x:Name="ChooseYourLanguageTxt" Content="Choose your language :" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" Width="150" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="White"/>
+        <Label x:Name="ChooseYourLanguageTxt" Content="Choose your language (click on a flag) :" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" Width="245" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="White"/>
 
 
     </Grid>
