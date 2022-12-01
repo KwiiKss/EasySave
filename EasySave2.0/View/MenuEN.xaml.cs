@@ -10,34 +10,40 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-using System.Drawing;
 using System.Windows.Navigation;
+using System.Windows.Shapes;
 
 namespace EasySave2._0
 {
     /// <summary>
-    /// Logique d'interaction pour Page1.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class WelcomePage : Window
+    public partial class MenuEN : Window
     {
-        public WelcomePage()
+        public MenuEN()
         {
             InitializeComponent();
-            
         }
-        private void EnglishMenu(object sender, MouseButtonEventArgs e)
+
+        private void ChooseEN(object sender, MouseButtonEventArgs e)
         {
-            MenuEN window = new MenuEN();
+            ChooseEN window = new ChooseEN();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
             window.Show();
         }
-
-        private void FrenchMenu(object sender, MouseButtonEventArgs e)
+        //private void ShowPage(object sender, MouseButtonEventArgs e)
+        //{
+        //    ShowPage window = new ShowPage();
+        //    window.Top = this.Top;
+        //    window.Left = this.Left;
+        //    this.Close();
+        //    window.Show();
+        //}
+        private void OptionsEN(object sender, MouseButtonEventArgs e)
         {
-            MenuFR window = new MenuFR();
+            OptionsEN window = new OptionsEN();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();

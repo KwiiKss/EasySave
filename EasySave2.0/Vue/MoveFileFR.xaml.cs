@@ -8,37 +8,34 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace EasySave2._0
 {
     /// <summary>
-    /// Logique d'interaction pour Page1.xaml
+    /// Logique d'interaction pour MoveFileFR.xaml
     /// </summary>
-    public partial class OptionPage : Window
+    public partial class MoveFileFR : Window
     {
-        public OptionPage()
+        public MoveFileFR()
         {
             InitializeComponent();
         }
-
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        private void ReturnButt(object sender, MouseButtonEventArgs e)
         {
-
-        }
-        private void MenuPage(object sender, MouseButtonEventArgs e)
-        {
-            MenuPage window = new MenuPage();
+            ChooseFR window = new ChooseFR();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
             window.Show();
         }
-
-        //public void AddExtension(object sender, MouseButtonEventArgs e)
-        //{
-        //    string Extension_Name = Extension.Text;
-        //}
+        private void ReturnMenuFR(object sender, MouseButtonEventArgs e)
+        {
+            MenuFR window = new MenuFR();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
     }
 }

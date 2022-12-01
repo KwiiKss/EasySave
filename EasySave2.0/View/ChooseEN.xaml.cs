@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,34 +14,36 @@ using System.Windows.Shapes;
 namespace EasySave2._0
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour ChoosePage.xaml
     /// </summary>
-    public partial class MenuPage : Window
+    public partial class ChooseEN : Window
     {
-        public MenuPage()
+        public ChooseEN()
         {
             InitializeComponent();
         }
 
-        private void ChoosePage(object sender, MouseButtonEventArgs e)
+        private void ReturnButt(object sender, MouseButtonEventArgs e)
         {
-            ChoosePage window = new ChoosePage();
+            MenuEN window = new MenuEN();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
             window.Show();
         }
-        //private void ShowPage(object sender, MouseButtonEventArgs e)
-        //{
-        //    ShowPage window = new ShowPage();
-        //    window.Top = this.Top;
-        //    window.Left = this.Left;
-        //    this.Close();
-        //    window.Show();
-        //}
-        private void OptionPage(object sender, MouseButtonEventArgs e)
+
+        private void MoveFileEN(object sender, MouseButtonEventArgs e)
         {
-            OptionPage window = new OptionPage();
+            MoveFileEN window = new MoveFileEN();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
+
+        private void MoveFolderEN(object sender, MouseButtonEventArgs e)
+        {
+            MoveFolderEN window = new MoveFolderEN();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();

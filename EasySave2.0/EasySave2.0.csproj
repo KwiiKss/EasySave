@@ -83,18 +83,30 @@
     <None Remove="View\ButtonOptions.png" />
     <None Remove="View\ButtonShow.png" />
     <None Remove="View\ChoosePageTitle.png" />
+    <None Remove="View\CreateSavesButt.png" />
+    <None Remove="View\DeplaceContTitle.png" />
+    <None Remove="View\DeplaceDossButt.png" />
+    <None Remove="View\DeplaceFichButt.png" />
     <None Remove="View\EasySaveTitle.png" />
     <None Remove="View\EnglishFlag.png" />
     <None Remove="View\FrenchFlag.jpg" />
     <None Remove="View\Logo.png" />
+    <None Remove="View\Logo.png.png" />
     <None Remove="View\MenuButton.png" />
     <None Remove="View\MoveFileButton.png" />
     <None Remove="View\MoveFileTitle.png" />
     <None Remove="View\MoveFolderButton.png" />
     <None Remove="View\MoveFolderPage.png" />
     <None Remove="View\OptionsTitle.png" />
-    <None Remove="View\ReturnButton.png" />
+    <None Remove="View\ReturnButt.png" />
+    <None Remove="View\ShowSavesButt.png" />
     <None Remove="View\WelcomeBienTitle.png" />
+    <None Remove="Vue\CreerSauvButt.png" />
+    <None Remove="Vue\DeplaceContTitle.png" />
+    <None Remove="Vue\DeplaceDossButt.png" />
+    <None Remove="Vue\DeplaceFichButt.png" />
+    <None Remove="Vue\DeplaceFichierTitle.png" />
+    <None Remove="Vue\RegaSauvButt.png" />
     <None Remove="welcome-29-11-2022.png" />
     <None Remove="welcome-Bienvenue-29-11-2022.png" />
     <None Remove="WelcomeBienTitle.png" />
@@ -102,10 +114,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="View\ButtonCreate.png" />
     <Resource Include="View\ButtonOptions.png" />
-    <Resource Include="View\ButtonShow.png" />
     <Resource Include="View\ChoosePageTitle.png" />
+    <Resource Include="View\CreateSavesButt.png" />
     <Resource Include="View\EasySaveTitle.png" />
     <Resource Include="View\EnglishFlag.png" />
     <Resource Include="View\FrenchFlag.jpg" />
@@ -116,8 +127,15 @@
     <Resource Include="View\MoveFolderButton.png" />
     <Resource Include="View\MoveFolderPage.png" />
     <Resource Include="View\OptionsTitle.png" />
-    <Resource Include="View\ReturnButton.png" />
+    <Resource Include="View\ReturnButt.png" />
+    <Resource Include="View\ShowSavesButt.png" />
     <Resource Include="View\WelcomeBienTitle.png" />
+    <Resource Include="Vue\CreerSauvButt.png" />
+    <Resource Include="Vue\DeplaceContTitle.png" />
+    <Resource Include="Vue\DeplaceDossButt.png" />
+    <Resource Include="Vue\DeplaceFichButt.png" />
+    <Resource Include="Vue\DeplaceFichierTitle.png" />
+    <Resource Include="Vue\RegaSauvButt.png" />
   </ItemGroup>
 
 </Project>

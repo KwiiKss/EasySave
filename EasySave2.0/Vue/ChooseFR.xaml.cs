@@ -8,32 +8,42 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace EasySave2._0
 {
     /// <summary>
-    /// Logique d'interaction pour MoveFolderPage.xaml
+    /// Logique d'interaction pour ChooseFR.xaml
     /// </summary>
-    public partial class MoveFolderPage : Window
+    public partial class ChooseFR : Window
     {
-        public MoveFolderPage()
+        public ChooseFR()
         {
             InitializeComponent();
         }
 
         private void ReturnButt(object sender, MouseButtonEventArgs e)
         {
-            ChoosePage window = new ChoosePage();
+            MenuFR window = new MenuFR();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
             window.Show();
         }
 
-        private void ReturnMenu(object sender, MouseButtonEventArgs e)
+        private void MoveFileFR(object sender, MouseButtonEventArgs e)
         {
-            MenuPage window = new MenuPage();
+            MoveFileFR window = new MoveFileFR();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
+
+        private void MoveFolderFR(object sender, MouseButtonEventArgs e)
+        {
+            MoveFolderFR window = new MoveFolderFR();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();

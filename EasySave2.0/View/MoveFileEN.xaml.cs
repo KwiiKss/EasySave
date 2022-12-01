@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -11,33 +9,30 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Drawing;
-using System.Windows.Navigation;
 
 namespace EasySave2._0
 {
     /// <summary>
-    /// Logique d'interaction pour Page1.xaml
+    /// Logique d'interaction pour MoveFilePage.xaml
     /// </summary>
-    public partial class WelcomePage : Window
+    public partial class MoveFileEN : Window
     {
-        public WelcomePage()
+        public MoveFileEN()
         {
             InitializeComponent();
-            
         }
-        private void EnglishMenu(object sender, MouseButtonEventArgs e)
+
+        private void ReturnButt(object sender, MouseButtonEventArgs e)
         {
-            MenuEN window = new MenuEN();
+            ChooseEN window = new ChooseEN();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
             window.Show();
         }
-
-        private void FrenchMenu(object sender, MouseButtonEventArgs e)
+        private void ReturnMenu(object sender, MouseButtonEventArgs e)
         {
-            MenuFR window = new MenuFR();
+            MenuEN window = new MenuEN();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
