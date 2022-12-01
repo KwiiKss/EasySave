@@ -101,4 +101,23 @@
     <None Remove="WelcomeTitle.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Resource Include="View\ButtonCreate.png" />
+    <Resource Include="View\ButtonOptions.png" />
+    <Resource Include="View\ButtonShow.png" />
+    <Resource Include="View\ChoosePageTitle.png" />
+    <Resource Include="View\EasySaveTitle.png" />
+    <Resource Include="View\EnglishFlag.png" />
+    <Resource Include="View\FrenchFlag.jpg" />
+    <Resource Include="View\Logo.png" />
+    <Resource Include="View\MenuButton.png" />
+    <Resource Include="View\MoveFileButton.png" />
+    <Resource Include="View\MoveFileTitle.png" />
+    <Resource Include="View\MoveFolderButton.png" />
+    <Resource Include="View\MoveFolderPage.png" />
+    <Resource Include="View\OptionsTitle.png" />
+    <Resource Include="View\ReturnButton.png" />
+    <Resource Include="View\WelcomeBienTitle.png" />
+  </ItemGroup>
+
 </Project>
