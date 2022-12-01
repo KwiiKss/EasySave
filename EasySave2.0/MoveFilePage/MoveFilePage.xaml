@@ -22,5 +22,6 @@
         <TextBox x:Name="DestinationFile" HorizontalAlignment="Left" Margin="128,315,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="SuccessText" Content="The file has been successfully moved !" HorizontalAlignment="Left" Margin="376,205,0,0" VerticalAlignment="Top" Width="240" FontFamily="Segoe UI Black" FontWeight="Normal" Height="26" Foreground="#FFFDFDFD"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="546,30,0,0" VerticalAlignment="Top" Width="66" Source="/MoveFilePage/ReturnButton.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
+        <Button x:Name="ValidateButton" Content="Accept" HorizontalAlignment="Left" Margin="128,349,0,0" VerticalAlignment="Top" Width="51"/>
     </Grid>
 </Window>
