@@ -23,7 +23,7 @@
         <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="307,296,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
         <TextBox x:Name="Extension" HorizontalAlignment="Left" Margin="307,338,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
         <Label x:Name="Extension_Name" Content="Extension needing crypting : " HorizontalAlignment="Left" Margin="118,329,0,0" VerticalAlignment="Top" Width="180" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <Button x:Name ="Bouton_Extension" Content="Add" HorizontalAlignment="Left" Margin="540,336,0,0" VerticalAlignment="Top" MouseDown="AddExtension" Height="21" Width="30"/>
+        <Button x:Name ="Bouton_Extension" Content="Add" HorizontalAlignment="Left" Margin="540,336,0,0" VerticalAlignment="Top" Height="21" Width="30"/>
 
     </Grid>
 </Window>
