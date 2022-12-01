@@ -23,10 +23,15 @@ namespace EasySave2._0
             InitializeComponent();
         }
 
-        private void RadioButtonFR(object sender, RoutedEventArgs e)
+        private void AppEN(object sender, MouseButtonEventArgs e)
         {
-
+            OptionsEN window = new OptionsEN();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
         }
+
         private void ReturnMenuFR(object sender, MouseButtonEventArgs e)
         {
             MenuFR window = new MenuFR();

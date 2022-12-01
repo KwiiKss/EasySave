@@ -22,11 +22,15 @@ namespace EasySave2._0
         {
             InitializeComponent();
         }
-
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        private void AppFR(object sender, MouseButtonEventArgs e)
         {
-
+            OptionsFR window = new OptionsFR();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
         }
+
         private void MenuEN(object sender, MouseButtonEventArgs e)
         {
             MenuEN window = new MenuEN();

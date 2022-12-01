@@ -11,10 +11,8 @@
     </Window.Background>
     <Grid>
         <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/View/OptionsTitle.png"/>
-        <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="68" Margin="168,172,0,0" VerticalAlignment="Top" Width="100" Source="/View/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="68" Margin="168,172,0,0" VerticalAlignment="Top" Width="100" Source="/View/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5" MouseDown="AppFR"/>
         <Image x:Name="EnglishFlag" HorizontalAlignment="Left" Height="68" Margin="382,172,0,0" VerticalAlignment="Top" Width="111" Source="/View/EnglishFlag.png" RenderTransformOrigin="0.5,0.5"/>
-        <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="133,198,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
-        <RadioButton x:Name="EnglishButton" Content="" HorizontalAlignment="Left" Margin="344,198,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161" IsChecked="True"/>
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="MenuEN"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="LanguageText" Content="Change your language : " HorizontalAlignment="Left" Margin="124,121,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
