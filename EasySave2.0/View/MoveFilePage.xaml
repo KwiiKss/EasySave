@@ -10,9 +10,9 @@
         <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
     </Window.Background>
     <Grid>
-        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
-        <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/View/MoveFileTitle.png"/>
-        <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="ReturnMenu"/>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/MoveFilePage/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/MoveFilePage/MoveFileTitle.png"/>
+        <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/MoveFilePage/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="ReturnMenu"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="NameText" Content="Put the name of the file :" HorizontalAlignment="Left" Margin="124,121,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText" Content="Put the source of the file :" HorizontalAlignment="Left" Margin="128,203,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
@@ -21,7 +21,6 @@
         <Label x:Name="DestinationText" Content="Put the destination of the file :" HorizontalAlignment="Left" Margin="128,280,0,0" VerticalAlignment="Top" Width="195" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
         <TextBox x:Name="DestinationFile" HorizontalAlignment="Left" Margin="128,315,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="SuccessText" Content="The file has been successfully moved !" HorizontalAlignment="Left" Margin="376,205,0,0" VerticalAlignment="Top" Width="240" FontFamily="Segoe UI Black" FontWeight="Normal" Height="26" Foreground="#FFFDFDFD"/>
-        <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="546,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButton.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
-        <Button x:Name="ValidateButton" Content="Accept" HorizontalAlignment="Left" Margin="128,349,0,0" VerticalAlignment="Top" Width="51"/>
+        <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="546,30,0,0" VerticalAlignment="Top" Width="66" Source="/MoveFilePage/ReturnButton.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
     </Grid>
 </Window>
