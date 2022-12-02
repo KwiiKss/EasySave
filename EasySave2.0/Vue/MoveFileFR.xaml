@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EasySave2._0"
         mc:Ignorable="d"
-        Title="MoveFileFR" Height="482" Width="635">
+        Title="EasySave" Height="482" Width="635">
     <Window.Background>
         <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
     </Window.Background>

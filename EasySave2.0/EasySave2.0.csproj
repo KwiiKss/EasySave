@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>EasySave2._0</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>download-icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -88,6 +89,7 @@
     <None Remove="View\DeplaceDossButt.png" />
     <None Remove="View\DeplaceFichButt.png" />
     <None Remove="View\EasySaveTitle.png" />
+    <None Remove="View\EnglishFlag.jpg" />
     <None Remove="View\EnglishFlag.png" />
     <None Remove="View\FrenchFlag.jpg" />
     <None Remove="View\Logo.png" />
@@ -106,6 +108,8 @@
     <None Remove="Vue\DeplaceDossButt.png" />
     <None Remove="Vue\DeplaceFichButt.png" />
     <None Remove="Vue\DeplaceFichierTitle.png" />
+    <None Remove="Vue\EnglishFlag.jpg" />
+    <None Remove="Vue\EnglishFlag.png" />
     <None Remove="Vue\RegaSauvButt.png" />
     <None Remove="welcome-29-11-2022.png" />
     <None Remove="welcome-Bienvenue-29-11-2022.png" />
@@ -135,6 +139,8 @@
     <Resource Include="Vue\DeplaceDossButt.png" />
     <Resource Include="Vue\DeplaceFichButt.png" />
     <Resource Include="Vue\DeplaceFichierTitle.png" />
+    <Resource Include="Vue\EnglishFlag.jpg" />
+    <Resource Include="Vue\EnglishFlag.png" />
     <Resource Include="Vue\RegaSauvButt.png" />
   </ItemGroup>
 
