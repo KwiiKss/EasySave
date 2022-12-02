@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>EasySave2._0</RootNamespace>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>download-icon.ico</ApplicationIcon>
+    <ApplicationIcon>EasySave.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
