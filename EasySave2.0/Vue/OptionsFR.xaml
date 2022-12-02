@@ -11,7 +11,7 @@
     </Window.Background>
     <Grid>
         <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/View/OptionsTitle.png"/>
-        <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="68" Margin="168,172,0,0" VerticalAlignment="Top" Width="100" Source="/View/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="68" Margin="168,172,0,0" VerticalAlignment="Top" Width="100" Opacity="0.6" Source="/View/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5"/>
         <Image x:Name="EnglishFlag" HorizontalAlignment="Left" Height="68" Margin="382,172,0,0" VerticalAlignment="Top" Width="111" Source="/View/EnglishFlag.png" RenderTransformOrigin="0.5,0.5" MouseDown="AppEN"/>
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="ReturnMenuFR"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
@@ -22,6 +22,7 @@
         <Label x:Name="Extension_Name" Content="Cryptage :" HorizontalAlignment="Left" Margin="118,329,0,0" VerticalAlignment="Top" Width="180" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
         <Button x:Name ="Bouton_Extension" Content="Ajouter" HorizontalAlignment="Left" Margin="540,336,0,0" VerticalAlignment="Top" Height="21" Width="50"/>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Label x:Name="Selected" Content="Séléctionné" HorizontalAlignment="Left" Margin="178,239,0,0" VerticalAlignment="Top" Width="80" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
 
     </Grid>
 </Window>
