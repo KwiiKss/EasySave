@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,6 +22,17 @@ namespace EasySave2._0
         {
             InitializeComponent();
         }
+        private void Valide(object sender, RoutedEventArgs e)
+        {
+            string FileName = NameFile.Text;
+            string FileSource = SourceFile.Text;
+            string FileDestination = DestinationFile.Text;
+            string SourceFileName = FileSource + "\\" + FileName + "";
+            string DestFileName = FileDestination + "\\" + FileName + "";
+            File.Move(SourceFileName, DestFileName);
+            SuccessText.Visibility = Visibility.Visible;
+        }
+
         private void ReturnButt(object sender, MouseButtonEventArgs e)
         {
             ChooseFR window = new ChooseFR();
