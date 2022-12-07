@@ -15,7 +15,7 @@
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="NameText" Content="Put the name of the file :" HorizontalAlignment="Left" Margin="124,121,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText" Content="Put the source of the file :" HorizontalAlignment="Left" Margin="128,203,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="NameFile" HorizontalAlignment="Left" Margin="128,153,0,0" Text="(Ex : Document.txt) " TextWrapping="Wrap" VerticalAlignment="Top" Width="222"/>
+        <TextBox x:Name="NameFile" HorizontalAlignment="Left" Margin="128,153,0,0" Text="(Ex : Document.txt)" TextWrapping="Wrap" VerticalAlignment="Top" Width="222"/>
         <TextBox x:Name="SourceFile" HorizontalAlignment="Left" Margin="128,238,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="222"/>
         <Label x:Name="DestinationText" Content="Put the destination of the file :" HorizontalAlignment="Left" Margin="128,280,0,0" VerticalAlignment="Top" Width="195" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
         <TextBox x:Name="DestinationFile" HorizontalAlignment="Left" Margin="128,315,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="222"/>

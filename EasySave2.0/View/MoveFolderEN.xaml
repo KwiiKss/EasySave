@@ -15,12 +15,12 @@
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="NameText" Content="Put the name of the folder :" HorizontalAlignment="Left" Margin="124,121,0,0" VerticalAlignment="Top" Width="178" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText" Content="Put the source of the folder :" HorizontalAlignment="Left" Margin="128,203,0,0" VerticalAlignment="Top" Width="190" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="NameFolder" HorizontalAlignment="Left" Margin="128,153,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="SourceFolder" HorizontalAlignment="Left" Margin="128,238,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="NameFolder" HorizontalAlignment="Left" Margin="128,153,0,0" Text="(Ex : Folder1)" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
+        <TextBox x:Name="SourceFolder" HorizontalAlignment="Left" Margin="128,238,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
         <Label x:Name="DestinationText" Content="Put the destination of the folder :" HorizontalAlignment="Left" Margin="128,280,0,0" VerticalAlignment="Top" Width="210" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DestinationFolder" HorizontalAlignment="Left" Margin="128,315,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="DestinationFolder" HorizontalAlignment="Left" Margin="128,315,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
         <Label x:Name="SuccessText" Content="The folder has been successfully moved !" HorizontalAlignment="Left" Margin="367,205,0,0" VerticalAlignment="Top" Width="258" FontFamily="Segoe UI Black" FontWeight="Normal" Height="26" Foreground="#FFFDFDFD"/>
-        <Button x:Name="ValidateButton" Content="Accept" HorizontalAlignment="Left" Margin="128,349,0,0" VerticalAlignment="Top" Width="51"/>
+        <Button x:Name="ValidateButton" Content="Accept" HorizontalAlignment="Left" Margin="128,349,0,0" VerticalAlignment="Top" Width="51" Click="Validate"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="550,10,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
     </Grid>

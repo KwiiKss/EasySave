@@ -106,6 +106,7 @@
     <None Remove="Vue\CreerSauvButt.png" />
     <None Remove="Vue\DeplaceContTitle.png" />
     <None Remove="Vue\DeplaceDossButt.png" />
+    <None Remove="Vue\DeplaceDossierTitle.png" />
     <None Remove="Vue\DeplaceFichButt.png" />
     <None Remove="Vue\DeplaceFichierTitle.png" />
     <None Remove="Vue\EnglishFlag.jpg" />
@@ -137,6 +138,7 @@
     <Resource Include="Vue\CreerSauvButt.png" />
     <Resource Include="Vue\DeplaceContTitle.png" />
     <Resource Include="Vue\DeplaceDossButt.png" />
+    <Resource Include="Vue\DeplaceDossierTitle.png" />
     <Resource Include="Vue\DeplaceFichButt.png" />
     <Resource Include="Vue\DeplaceFichierTitle.png" />
     <Resource Include="Vue\EnglishFlag.jpg" />

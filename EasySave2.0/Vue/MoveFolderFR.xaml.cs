@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -20,6 +21,17 @@ namespace EasySave2._0
         public MoveFolderFR()
         {
             InitializeComponent();
+        }
+
+        private void Valide(object sender, RoutedEventArgs e)
+        {
+            string FolderName = NameFolder.Text;
+            string FolderSource = SourceFolder.Text;
+            string FolderDestination = DestinationFolder.Text;
+            string SourceFolderName = FolderSource + "\\" + FolderName + "";
+            string DestFolderName = FolderDestination + "\\" + FolderName + "";
+            Directory.Move(SourceFolderName, DestFolderName);
+            SuccessText.Visibility = Visibility.Visible;
         }
 
         private void ReturnButt(object sender, MouseButtonEventArgs e)
