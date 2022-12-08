@@ -37,6 +37,8 @@
         <Label x:Name="SourceText_Copy" Content="Exemple : test.txt" HorizontalAlignment="Left" Margin="124,171,0,0" VerticalAlignment="Top" Width="308" FontFamily="Segoe UI Black" FontWeight="Normal" Height="24" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText_Copy1" Content="Exemple : C:\Users\corso\OneDrive\Bureau\exel" HorizontalAlignment="Left" Margin="124,338,0,0" VerticalAlignment="Top" Width="308" FontFamily="Segoe UI Black" FontWeight="Normal" Height="24" Foreground="#FFFDFDFD"/>
         <Label x:Name="Loading" Content="DON'T Touch!" HorizontalAlignment="Left" Margin="152,0,0,0" VerticalAlignment="Center" Height="142" Width="344" FontSize="48" Visibility="Hidden"/>
-        <ProgressBar x:Name="progressbar1" HorizontalAlignment="Left" Height="10" Margin="63,446,0,0" VerticalAlignment="Top" Width="497"/>
+        <ProgressBar x:Name="progressbar1" HorizontalAlignment="Left" Height="10" Margin="52,424,0,0" VerticalAlignment="Top" Width="497"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="442,236,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="442,314,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
