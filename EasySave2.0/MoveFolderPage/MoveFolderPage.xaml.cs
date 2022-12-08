@@ -30,11 +30,30 @@ namespace EasySave2._0
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             SuccessText.Content = "Loading...";
-            string source = @"c:\" + SourceFolder.Text + NameFolder.Text;
-            string destination = @"c:\" + DestinationFolder.Text + NameFolder.Text;
+            string source = System.IO.Path.Combine(SourceFolder.Text, NameFolder.Text);
+            string destination = System.IO.Path.Combine(DestinationFolder.Text, NameFolder.Text);
+
             Tryso.MoveFolder(source, destination);
             SuccessText.Content = "The folder has been successfully moved !";
 
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var dialog = new Microsoft.Win32.SaveFileDialog();
+            dialog.FileName = "Document"; // Default file name
+            dialog.DefaultExt = ".txt"; // Default file extension
+            dialog.Filter = "Text documents (.txt)|*.txt"; // Filter files by extension
+
+            // Show save file dialog box
+            bool? result = dialog.ShowDialog();
+
+            // Process save file dialog box results
+            if (result == true)
+            {
+                // Save document
+                string filename = dialog.FileName;
+            }
         }
     }
     public class Tryso
