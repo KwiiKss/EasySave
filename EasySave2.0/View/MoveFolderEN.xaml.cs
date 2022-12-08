@@ -10,6 +10,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Path = System.IO.Path;
+using Microsoft.WindowsAPICodePack.Dialogs;
 
 namespace EasySave2._0
 {
@@ -25,15 +27,35 @@ namespace EasySave2._0
 
         private void Validate(object sender, RoutedEventArgs e)
         {
-            string FolderName = NameFolder.Text;
-            string FolderSource = SourceFolder.Text;
-            string FolderDestination = DestinationFolder.Text;
-            string SourceFolderName = FolderSource + "\\" + FolderName + "";
-            string DestFolderName = FolderDestination + "\\" + FolderName + "";
+
+            string SourceFolderName = SourceFolder.Text;
+            string FolderName = Path.GetFileName(SourceFolderName);
+            string DestFolderName = DestinationFolder.Text + "\\" + FolderName;
             CreateSaves move = new CreateSaves();
             move.MoveFolder(SourceFolderName, DestFolderName);
-            SuccessText.Visibility = Visibility.Visible;
-            SuccessText.Content = FolderName + " has been successfully moved !";
+            SuccessText.Content = SourceFolderName + "\n -> " + DestFolderName;
+        }
+
+        private void SearchSourceFolder(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                SourceFolder.Text = dialog.FileName;
+                this.Topmost = true;
+            }
+        }
+
+        private void SearchDestFolder(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                DestinationFolder.Text = dialog.FileName;
+                this.Topmost = true;
+            }
         }
 
         private void ReturnButt(object sender, MouseButtonEventArgs e)

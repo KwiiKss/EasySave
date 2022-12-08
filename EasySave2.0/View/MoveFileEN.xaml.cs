@@ -10,6 +10,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Microsoft.WindowsAPICodePack.Dialogs;
+using Path = System.IO.Path;
 
 namespace EasySave2._0
 {
@@ -25,15 +27,34 @@ namespace EasySave2._0
 
         private void Validate(object sender, RoutedEventArgs e)
         {
-            string FileName = NameFile.Text;
-            string FileSource = SourceFile.Text;
-            string FileDestination = DestinationFile.Text;
-            string SourceFileName = FileSource + "\\" + FileName + "";
-            string DestFileName = FileDestination + "\\" + FileName + "";
+            string SourceFileName = SourceFile.Text;
+            string FileName = Path.GetFileName(SourceFileName);
+            string DestFileName = DestinationFile.Text + "\\" + FileName;
             CreateSaves move = new CreateSaves();
             move.MoveFile(SourceFileName, DestFileName);
-            SuccessText.Visibility = Visibility.Visible;
-            SuccessText.Content = FileName + " has been successfully moved !";
+            SuccessText.Content = SourceFileName + "\n -> " + DestFileName;
+        }
+
+        private void SearchSourceFile(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = false;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                SourceFile.Text = dialog.FileName;
+                this.Topmost = true;
+            }
+        }
+
+        private void SearchDestFile(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                DestinationFile.Text = dialog.FileName;
+                this.Topmost = true;
+            }
         }
 
         private void ReturnButt(object sender, MouseButtonEventArgs e)

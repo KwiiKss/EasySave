@@ -13,15 +13,15 @@
         <Image x:Name="MoveFolderTitle" HorizontalAlignment="Center" Height="127" VerticalAlignment="Top" Width="328" Source="/Vue/DeplaceDossierTitle.png"/>
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="ReturnMenuFR"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
-        <Label x:Name="NameText" Content="Entrer le nom du dossier :" HorizontalAlignment="Left" Margin="124,121,0,0" VerticalAlignment="Top" Width="178" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
-        <Label x:Name="SourceText" Content="Entrer la source du dossier :" HorizontalAlignment="Left" Margin="128,203,0,0" VerticalAlignment="Top" Width="190" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="NameFolder" HorizontalAlignment="Left" Margin="128,153,0,0" Text="(Ex : Dossier1)" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
-        <TextBox x:Name="SourceFolder" HorizontalAlignment="Left" Margin="128,238,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
-        <Label x:Name="DestinationText" Content="Entrer la destination du dossier :" HorizontalAlignment="Left" Margin="128,280,0,0" VerticalAlignment="Top" Width="210" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DestinationFolder" HorizontalAlignment="Left" Margin="128,315,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="241"/>
-        <Label x:Name="SuccessText" Content="" HorizontalAlignment="Left" Margin="418,205,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontWeight="Normal" Foreground="#FFFDFDFD" Visibility="Hidden"/>
-        <Button x:Name="ValidateButton" Content="Valider" HorizontalAlignment="Left" Margin="128,349,0,0" VerticalAlignment="Top" Width="51" Click="Valide"/>
+        <Label x:Name="SourceText" Content="Entrer la source du dossier :" HorizontalAlignment="Left" Margin="128,127,0,0" VerticalAlignment="Top" Width="190" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
+        <TextBox x:Name="SourceFolder" HorizontalAlignment="Left" Margin="128,165,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="353"/>
+        <Label x:Name="DestinationText" Content="Entrer la destination du dossier :" HorizontalAlignment="Left" Margin="128,0,0,0" VerticalAlignment="Center" Width="210" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD" RenderTransformOrigin="0.488,-0.779"/>
+        <TextBox x:Name="DestinationFolder" HorizontalAlignment="Left" Margin="128,253,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="353"/>
+        <Label x:Name="SuccessText" Content="" HorizontalAlignment="Left" Margin="199,313,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontWeight="Normal" Foreground="#FFFDFDFD"/>
+        <Button x:Name="ValidateButton" Content="Valider" HorizontalAlignment="Left" Margin="128,316,0,0" VerticalAlignment="Top" Width="51" Click="Valide"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="550,10,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Button x:Name="SrchSourceFolder" Content=". . ." HorizontalAlignment="Left" Margin="524,165,0,0" VerticalAlignment="Top" Width="25" Height="18" Click="SearchSourceFolder"/>
+        <Button x:Name="SrchDestFolder" Content=". . ." HorizontalAlignment="Left" Margin="524,256,0,0" VerticalAlignment="Top" Width="25" Height="18" Click="SearchDestFolder"/>
     </Grid>
 </Window>
