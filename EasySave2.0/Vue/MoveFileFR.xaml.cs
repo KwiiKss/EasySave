@@ -24,6 +24,7 @@ namespace EasySave2._0
         {
             InitializeComponent();
         }
+
         private void Valide(object sender, RoutedEventArgs e)
         {
             string SourceFileName = SourceFile.Text;
@@ -31,8 +32,12 @@ namespace EasySave2._0
             string DestFileName = DestinationFile.Text + "\\" + FileName;
             CreateSaves move = new CreateSaves();
             move.MoveFile(SourceFileName, DestFileName);
-            SuccessText.Content = SourceFileName + "\n -> " + DestFileName;
+            if (move.MoveFile(SourceFileName, DestFileName) == true)
+            {
+                SuccessText.Content = SourceFileName + "\n -> " + DestFileName;
+            }
         }
+
         private void SearchSourceFile(object sender, RoutedEventArgs e)
         {
             var dialog = new CommonOpenFileDialog();
@@ -63,6 +68,7 @@ namespace EasySave2._0
             this.Close();
             window.Show();
         }
+
         private void ReturnMenuFR(object sender, MouseButtonEventArgs e)
         {
             MenuFR window = new MenuFR();

@@ -33,7 +33,10 @@ namespace EasySave2._0
             string DestFolderName = DestinationFolder.Text + "\\" + FolderName;
             CreateSaves move = new CreateSaves();
             move.MoveFolder(SourceFolderName, DestFolderName);
-            SuccessText.Content = SourceFolderName + "\n -> " + DestFolderName;
+            if (move.MoveFolder(SourceFolderName, DestFolderName) == true)
+            {
+                SuccessText.Content = SourceFolderName + "\n -> " + DestFolderName;
+            }
         }
 
         private void SearchSourceFolder(object sender, RoutedEventArgs e)
