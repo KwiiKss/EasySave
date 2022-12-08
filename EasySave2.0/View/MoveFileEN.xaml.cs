@@ -30,8 +30,10 @@ namespace EasySave2._0
             string FileDestination = DestinationFile.Text;
             string SourceFileName = FileSource + "\\" + FileName + "";
             string DestFileName = FileDestination + "\\" + FileName + "";
-            File.Move(SourceFileName, DestFileName);
+            CreateSaves move = new CreateSaves();
+            move.MoveFile(SourceFileName, DestFileName);
             SuccessText.Visibility = Visibility.Visible;
+            SuccessText.Content = FileName + " has been successfully moved !";
         }
 
         private void ReturnButt(object sender, MouseButtonEventArgs e)
