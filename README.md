@@ -63,7 +63,16 @@ Note also the presence of **include** and **extend**:
 ![Capture d’écran 2022-11-25 223113](https://user-images.githubusercontent.com/93579099/204057176-23216e41-0e69-4a93-8698-d01007aaa20a.png)
 
 The application launches and you arrive on the main menu. Thanks to this one you can change the language first or even see the credits of the application.
-Following this, the application obviously offers you the possibility of creating a backup job, ie a folder creation available with the "Create a folder" option.
+![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
+Following this, your going to encounter a page with 3 option,"creates saves","show saves","Options".
+![image](https://user-images.githubusercontent.com/93579262/206676133-6059f12f-76e7-454a-918f-ddd57d842beb.png)
+If you press "creates saves", the next page going to ask if you want to move a folder or a file.
+![image](https://user-images.githubusercontent.com/93579262/206678374-ed2d500a-8949-4e2e-ae32-4c924c17f597.png)
+chose a option:
+![image](https://user-images.githubusercontent.com/93579262/206678452-d3aa02a5-f4e4-4e7f-a5aa-7c6cfdcb3f98.png)
+![image](https://user-images.githubusercontent.com/93579262/206678504-458b4c27-8d26-4f01-86bd-00a8fa455821.png)
+
+
 Folder that you can then move to any storage medium using the "Move your folder" menu option. The same goes for moving files by going to the "Move your file" option.
 As soon as any file or folder is moved, you will have a single log file, which will be searchable in order to see at what time, what date and what file or folder was moved, etc.
 
