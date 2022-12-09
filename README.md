@@ -52,26 +52,69 @@ Note also the presence of **include** and **extend**:
 
 ### Console version
 * EasySave 1.0 - 25/11/2022 - https://github.com/KwiiKss/EasySave-1.0
-* EasySave 1.1 - Not Yet
+* EasySave 1.1 - 15/12/2022
 
 ### Graphic version
-* EasySave 2.0 - In Progress
-* EasySave 3.0 - Not Yet
+* EasySave 2.0 - 15/12/2022
+* EasySave 3.0 - 15/12/2022
 
 ======
-#### Menu in console application :
-![Capture d’écran 2022-11-25 223113](https://user-images.githubusercontent.com/93579099/204057176-23216e41-0e69-4a93-8698-d01007aaa20a.png)
+#### explanation of software :
+The application launches and you arrive on this welcome page. Thanks to this one you can change the language first and put a delfaut path.
 
-The application launches and you arrive on the main menu. Thanks to this one you can change the language first or even see the credits of the application.
-Following this, the application obviously offers you the possibility of creating a backup job, ie a folder creation available with the "Create a folder" option.
-Folder that you can then move to any storage medium using the "Move your folder" menu option. The same goes for moving files by going to the "Move your file" option.
-As soon as any file or folder is moved, you will have a single log file, which will be searchable in order to see at what time, what date and what file or folder was moved, etc.
+![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
 
-In these different options, the same steps return the application will ask you for a file or folder name then its source and destination path depending on the action you want.
+Following this, your going to encounter a page with 3 option,"creates saves","show saves","Options".
 
-Once your work is finished, simply select the "Exit" option and finally the application will close at the next key press.
+![image](https://user-images.githubusercontent.com/93579262/206676133-6059f12f-76e7-454a-918f-ddd57d842beb.png)
 
+If you press "creates saves", the next page going to ask if you want to move a folder or a file.
+
+![image](https://user-images.githubusercontent.com/93579262/206678374-ed2d500a-8949-4e2e-ae32-4c924c17f597.png)
+
+chose a option:
+
+![image](https://user-images.githubusercontent.com/93579262/206678452-d3aa02a5-f4e4-4e7f-a5aa-7c6cfdcb3f98.png)
+
+![image](https://user-images.githubusercontent.com/93579262/206678504-458b4c27-8d26-4f01-86bd-00a8fa455821.png)
+
+If you press "Options", you encourter this page:
+
+![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
+
+In this page you can chose your language ( French/english ) , and put a delfault path for you log file.
+
+Actually , the button "show saves" is on maintenance but is going to be ready for the next update.
 
 ### Thank you for choosing EasySave
+
+#### explication du logiciel :
+Au lancement de l'application, on arrive sur la page d'accueil qui permet de choisir la langue et de mettre un chemin par default. 
+
+![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
+
+Suivant cela, vous allez rencontrer une page avec comme option , "Creer une sauvegarde","Regarder les sauvegardes","Options".
+
+![image](https://user-images.githubusercontent.com/93579262/206681582-1d8c2c21-7a79-4f38-9b58-3adda1b71239.png)
+
+En cliquant sur "Creer une sauvegarde", On arrive sur la page suivant qui vous demande de choisir si vous voulez deplacer un Dossier ou fichier
+
+![image](https://user-images.githubusercontent.com/93579262/206681829-c1c3aaa7-a691-4183-b79b-93fbe0c90225.png)
+
+choisit ton option, remplit les textBox et appuye sur Accepter pour bouger le fichier/dossier:
+
+![image](https://user-images.githubusercontent.com/93579262/206682290-ade357ce-799e-4fd6-90c2-f5a548c1d3d6.png)
+
+![image](https://user-images.githubusercontent.com/93579262/206682332-73fc215c-401d-49e5-902b-c7f8e36a3330.png)
+
+En allant sur "Option",vous arrivez sur la page suivantes :
+
+![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
+
+tu peux choisir la langue(Français/anglais), et mettre le chemin par defaut.
+
+Actuellement , le bouton "Regarder les auvegardes" est en maintenance mais sera prêt lors de la prochaine update.
+
+### Merci d'avoir choisie EasySave
 
 `Contact us if needed: kevin.laurent@viacesi.fr`
