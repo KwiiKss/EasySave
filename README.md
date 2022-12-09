@@ -60,9 +60,7 @@ Note also the presence of **include** and **extend**:
 
 ======
 #### Menu in console application :
-![Capture d’écran 2022-11-25 223113](https://user-images.githubusercontent.com/93579099/204057176-23216e41-0e69-4a93-8698-d01007aaa20a.png)
-
-The application launches and you arrive on the main menu. Thanks to this one you can change the language first or even see the credits of the application.
+The application launches and you arrive on this page. Thanks to this one you can change the language first or even see the credits of the application.
 
 ![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
 
@@ -80,14 +78,13 @@ chose a option:
 
 ![image](https://user-images.githubusercontent.com/93579262/206678504-458b4c27-8d26-4f01-86bd-00a8fa455821.png)
 
+If you press "Options", you encourter this page:
 
-Folder that you can then move to any storage medium using the "Move your folder" menu option. The same goes for moving files by going to the "Move your file" option.
-As soon as any file or folder is moved, you will have a single log file, which will be searchable in order to see at what time, what date and what file or folder was moved, etc.
+![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
 
-In these different options, the same steps return the application will ask you for a file or folder name then its source and destination path depending on the action you want.
+In this page you can chose your language ( French/english ) , and put a delfault path for you log file.
 
-Once your work is finished, simply select the "Exit" option and finally the application will close at the next key press.
-
+Actually , the button "show saves" is on maintenance but is going to be ready for the next update.
 
 ### Thank you for choosing EasySave
 
