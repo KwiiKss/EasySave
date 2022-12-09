@@ -52,11 +52,11 @@ Note also the presence of **include** and **extend**:
 
 ### Console version
 * EasySave 1.0 - 25/11/2022 - https://github.com/KwiiKss/EasySave-1.0
-* EasySave 1.1 - Not Yet
+* EasySave 1.1 - 15/12/2022
 
 ### Graphic version
-* EasySave 2.0 - In Progress
-* EasySave 3.0 - Not Yet
+* EasySave 2.0 - 15/12/2022
+* EasySave 3.0 - 15/12/2022
 
 ======
 #### Menu in console application :
