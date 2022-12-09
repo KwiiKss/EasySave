@@ -59,8 +59,8 @@ Note also the presence of **include** and **extend**:
 * EasySave 3.0 - 15/12/2022
 
 ======
-#### Menu in console application :
-The application launches and you arrive on this page. Thanks to this one you can change the language first or even see the credits of the application.
+#### explanation of software :
+The application launches and you arrive on this welcome page. Thanks to this one you can change the language first and put a delfaut path.
 
 ![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
 
@@ -87,5 +87,34 @@ In this page you can chose your language ( French/english ) , and put a delfault
 Actually , the button "show saves" is on maintenance but is going to be ready for the next update.
 
 ### Thank you for choosing EasySave
+
+#### explication du logiciel :
+Au lancement de l'application, on arrive sur la page d'accueil qui permet de choisir la langue et de mettre un chemin par default. 
+
+![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
+
+Suivant cela, vous allez rencontrer une page avec comme option , "Creer une sauvegarde","Regarder les sauvegardes","Options".
+
+![image](https://user-images.githubusercontent.com/93579262/206681582-1d8c2c21-7a79-4f38-9b58-3adda1b71239.png)
+
+En cliquant sur "Creer une sauvegarde", On arrive sur la page suivant qui vous demande de choisir si vous voulez deplacer un Dossier ou fichier
+
+![image](https://user-images.githubusercontent.com/93579262/206681829-c1c3aaa7-a691-4183-b79b-93fbe0c90225.png)
+
+choisit ton option, remplit les textBox et appuye sur Accepter pour bouger le fichier/dossier:
+
+![image](https://user-images.githubusercontent.com/93579262/206682290-ade357ce-799e-4fd6-90c2-f5a548c1d3d6.png)
+
+![image](https://user-images.githubusercontent.com/93579262/206682332-73fc215c-401d-49e5-902b-c7f8e36a3330.png)
+
+En allant sur "Option",vous arrivez sur la page suivantes :
+
+![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
+
+tu peux choisir la langue(Français/anglais), et mettre le chemin par defaut.
+
+Actuellement , le bouton "Regarder les auvegardes" est en maintenance mais sera prêt lors de la prochaine update.
+
+### Merci d'avoir choisie EasySave
 
 `Contact us if needed: kevin.laurent@viacesi.fr`
