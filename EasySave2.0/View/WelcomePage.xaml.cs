@@ -24,6 +24,8 @@ namespace EasySave2._0
         public WelcomePage()
         {
             InitializeComponent();
+            Settings check = new Settings();
+            check.ConfigFile();
             
         }
         private void EnglishMenu(object sender, MouseButtonEventArgs e)

@@ -14,9 +14,9 @@
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="ReturnMenu"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText" Content="Put the source of the folder :" HorizontalAlignment="Left" Margin="128,130,0,0" VerticalAlignment="Top" Width="190" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="SourceFolder" HorizontalAlignment="Left" Margin="128,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
+        <TextBox x:Name="SourceFolder" HorizontalAlignment="Left" Margin="128,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="17.96" Width="375"/>
         <Label x:Name="DestinationText" Content="Put the destination of the folder :" HorizontalAlignment="Left" Margin="128,0,0,0" VerticalAlignment="Center" Width="210" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DestinationFolder" HorizontalAlignment="Left" Margin="128,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
+        <TextBox x:Name="DestinationFolder" HorizontalAlignment="Left" Margin="128,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" MaxHeight="17.96" Width="375"/>
         <Label x:Name="SuccessText" Content="" HorizontalAlignment="Left" Margin="218,302,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontWeight="Normal" Foreground="#FFFDFDFD"/>
         <Button x:Name="ValidateButton" Content="Accept" HorizontalAlignment="Left" Margin="128,310,0,0" VerticalAlignment="Top" Width="51" Click="Validate"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="550,10,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>

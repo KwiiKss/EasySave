@@ -17,7 +17,7 @@
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="LanguageText" Content="Change your language : " HorizontalAlignment="Left" Margin="89,121,0,0" VerticalAlignment="Top" Width="150" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
         <Label x:Name="ChangePath" Content="Change your default path : " HorizontalAlignment="Left" Margin="70,313,0,0" VerticalAlignment="Top" Width="169" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="239,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286"/>
+        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="239,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="286" MaxHeight="17.96" TextChanged="ChangedDefaultPath"/>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Label x:Name="Selected" Content="Selected" HorizontalAlignment="Left" Margin="408,244,0,0" VerticalAlignment="Top" Width="59" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
         <Button x:Name="SearchPath" Content=". . ." HorizontalAlignment="Left" Margin="530,319,0,0" VerticalAlignment="Top" Height="18" Width="25" Click="SearchDefPath"/>

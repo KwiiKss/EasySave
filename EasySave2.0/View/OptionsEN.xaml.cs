@@ -1,6 +1,7 @@
 ﻿using Microsoft.WindowsAPICodePack.Dialogs;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,6 +23,7 @@ namespace EasySave2._0
         public OptionsEN()
         {
             InitializeComponent();
+            DefaultPath.Text = Data.Instance.DefaultPath;
         }
 
         private void AppFR(object sender, MouseButtonEventArgs e)
@@ -50,6 +52,14 @@ namespace EasySave2._0
                 DefaultPath.Text = dialog.FileName;
                 this.Topmost = true;
             }
+        }
+
+        private void ChangedDefaultPath(object sender, TextChangedEventArgs e)
+        {
+            Data.Instance.DefaultPath = DefaultPath.Text;
+            StreamWriter config = new StreamWriter(Data.Instance.Config + "\\ConfigEasySave\\ConfigFile.json");
+            config.WriteLine(Data.Instance.DefaultPath);
+            config.Close();
         }
     }
 }

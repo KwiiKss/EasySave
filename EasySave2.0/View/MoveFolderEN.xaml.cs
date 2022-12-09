@@ -23,6 +23,8 @@ namespace EasySave2._0
         public MoveFolderEN()
         {
             InitializeComponent();
+            SourceFolder.Text = Data.Instance.DefaultPath;
+            DestinationFolder.Text = Data.Instance.DefaultPath;
         }
 
         private void Validate(object sender, RoutedEventArgs e)
