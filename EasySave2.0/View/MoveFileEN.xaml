@@ -14,9 +14,9 @@
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Left" Height="42" Margin="269,379,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="ReturnMenu"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText" Content="Put the source of the file :" HorizontalAlignment="Left" Margin="128,130,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD" RenderTransformOrigin="0.476,-1.399"/>
-        <TextBox x:Name="SourceFile" HorizontalAlignment="Left" Margin="128,165,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="382"/>
+        <TextBox x:Name="SourceFile" HorizontalAlignment="Left" Margin="128,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="382"/>
         <Label x:Name="DestinationText" Content="Put the destination of the file :" HorizontalAlignment="Left" Margin="128,215,0,0" VerticalAlignment="Top" Width="195" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DestinationFile" HorizontalAlignment="Left" Margin="128,253,0,0" Text="(Ex : C:\Users\Desktop\ ...)" TextWrapping="Wrap" VerticalAlignment="Top" Width="382"/>
+        <TextBox x:Name="DestinationFile" HorizontalAlignment="Left" Margin="128,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="382"/>
         <Label x:Name="SuccessText" Content="" HorizontalAlignment="Left" Margin="220,296,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontWeight="Normal" Foreground="#FFFDFDFD"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="550,10,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
         <Button x:Name="ValidateButton" Content="Accept" HorizontalAlignment="Left" Margin="128,304,0,0" VerticalAlignment="Top" Width="51" Click="Validate"/>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -39,6 +40,17 @@ namespace EasySave2._0
             window.Left = this.Left;
             this.Close();
             window.Show();
+        }
+
+        private void SearchDefPath(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                DefaultPath.Text = dialog.FileName;
+                this.Topmost = true;
+            }
         }
     }
 }

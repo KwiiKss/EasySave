@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -22,6 +23,7 @@ namespace EasySave2._0
         {
             InitializeComponent();
         }
+
         private void AppFR(object sender, MouseButtonEventArgs e)
         {
             OptionsFR window = new OptionsFR();
@@ -39,10 +41,15 @@ namespace EasySave2._0
             this.Close();
             window.Show();
         }
-
-        //public void AddExtension(object sender, MouseButtonEventArgs e)
-        //{
-        //    string Extension_Name = Extension.Text;
-        //}
+        private void SearchDefPath(object sender, RoutedEventArgs e)
+        {
+            var dialog = new CommonOpenFileDialog();
+            dialog.IsFolderPicker = true;
+            if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+            {
+                DefaultPath.Text = dialog.FileName;
+                this.Topmost = true;
+            }
+        }
     }
 }
