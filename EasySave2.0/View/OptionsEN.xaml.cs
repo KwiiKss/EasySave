@@ -44,5 +44,12 @@ namespace EasySave2._0
         //{
         //    string Extension_Name = Extension.Text;
         //}
+        private static string folder = @"E:\A3";
+
+        public static string Folder
+        {
+            get { return folder; }
+            set { folder = value; }
+        }
     }
 }

@@ -11,16 +11,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Windows.Controls.Primitives;
 
 namespace EasySave2._0
 {
     /// <summary>
-    /// Interaction logic for ShowPage.xaml
+    /// Logique d'interaction pour ShowSave.xaml
     /// </summary>
-    public partial class ShowPage : Window
+    public partial class ShowSave : Window
     {
-        public ShowPage()
+        public ShowSave()
         {
             InitializeComponent();
         }
@@ -34,22 +33,23 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void LoadSaves(object sender, MouseButtonEventArgs e)
+        private void FetchSave(object sender, EventArgs e)
         {
-            listbox10.Items.Clear();
-            string Path = @"F:\JEUX";
-            string[] files = Directory.GetFiles(Path);
-            string[] dirs = Directory.GetDirectories(Path);
-            foreach (string file in files)
+            string var = OptionsEN.Folder;
+            listBoxSaves.Items.Clear();
+            DirectoryInfo dinfo = new DirectoryInfo(var);
+
+            FileInfo[] Files = dinfo.GetFiles();
+
+            foreach (FileInfo file in Files)
             {
-                listbox10.Items.Add(file);
+                listBoxSaves.Items.Add(file.Name);
             }
-            foreach (string dir in dirs)
-            {
-                listbox10.Items.Add(dir);
-            }
+        }
+
+        private void CryptFile()
+        {
 
         }
     }
 }
-
