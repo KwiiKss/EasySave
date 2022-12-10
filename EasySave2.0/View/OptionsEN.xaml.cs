@@ -44,8 +44,8 @@ namespace EasySave2._0
         //{
         //    string Extension_Name = Extension.Text;
         //}
-        private static string folder = @"E:\A3";
 
+        private static string folder = @"F:\JEUX";
         public static string Folder
         {
             get { return folder; }

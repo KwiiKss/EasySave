@@ -144,4 +144,17 @@
     <Resource Include="Vue\RegaSauvButt.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Vue\ShowPageFR.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Vue\ShowPageFR.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
 </Project>

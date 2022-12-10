@@ -30,14 +30,14 @@ namespace EasySave2._0
             this.Close();
             window.Show();
         }
-        //private void ShowPage(object sender, MouseButtonEventArgs e)
-        //{
-        //    ShowPage window = new ShowPage();
-        //    window.Top = this.Top;
-        //    window.Left = this.Left;
-        //    this.Close();
-        //    window.Show();
-        //}
+        private void ShowPageFR(object sender, MouseButtonEventArgs e)
+        {
+            ShowPageFR window = new ShowPageFR();
+            window.Top = this.Top;
+            window.Left = this.Left;
+            this.Close();
+            window.Show();
+        }
         private void OptionsFR(object sender, MouseButtonEventArgs e)
         {
             OptionsFR window = new OptionsFR();
