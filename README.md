@@ -101,7 +101,7 @@ En cliquant sur "Creer une sauvegarde", On arrive sur la page suivant qui vous d
 
 ![image](https://user-images.githubusercontent.com/93579262/206681829-c1c3aaa7-a691-4183-b79b-93fbe0c90225.png)
 
-choisit ton option, remplit les textBox et appuye sur Accepter pour bouger le fichier/dossier:
+Choisisez votre option, remplissez les textBox et appuyez sur Accepter pour déplacer le fichier/dossier:
 
 ![image](https://user-images.githubusercontent.com/93579262/206682290-ade357ce-799e-4fd6-90c2-f5a548c1d3d6.png)
 
@@ -111,9 +111,9 @@ En allant sur "Option",vous arrivez sur la page suivantes :
 
 ![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
 
-vous puvez choisir la langue(Français/anglais), et mettre le chemin par defaut.
+vous pouvez choisir la langue(Français/anglais), et mettre le chemin par defaut.
 
-Actuellement , le bouton "Regarder les sauvegardes" est en maintenance mais sera prêt lors de la prochaine update.
+Actuellement , le bouton "Regarder les sauvegardes" est en maintenance mais sera disponible lors de la prochaine update.
 
 ### Merci d'avoir choisie EasySave
 
