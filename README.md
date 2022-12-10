@@ -64,7 +64,7 @@ The application launches and you arrive on this welcome page. Thanks to this one
 
 ![image](https://user-images.githubusercontent.com/93579262/206855001-3960816d-462c-45e6-9840-50665a5e838e.png)
 
-Following this, your going to encounter a page with 3 option,"creates saves","show saves","Options".
+Following this, your going to encounter a page with 3 option,"Creates saves","Show saves","Options".
 
 ![image](https://user-images.githubusercontent.com/93579262/206676133-6059f12f-76e7-454a-918f-ddd57d842beb.png)
 
@@ -72,7 +72,7 @@ If you press "creates saves", the next page going to ask if you want to move a f
 
 ![image](https://user-images.githubusercontent.com/93579262/206678374-ed2d500a-8949-4e2e-ae32-4c924c17f597.png)
 
-chose a option:
+chose an option:
 
 ![image](https://user-images.githubusercontent.com/93579262/206678452-d3aa02a5-f4e4-4e7f-a5aa-7c6cfdcb3f98.png)
 
@@ -93,7 +93,7 @@ Au lancement de l'application, on arrive sur la page d'accueil qui permet de cho
 
 ![image](https://user-images.githubusercontent.com/93579262/206855004-7a6bd046-58bd-48b3-a274-7d3db6e40bc6.png)
 
-Suivant cela, vous allez rencontrer une page avec comme option , "Creer une sauvegarde","Regarder les sauvegardes","Options".
+Suivant cela, vous allez rencontrer une page avec comme option , "Créer une sauvegarde","Regarder les sauvegardes","Options".
 
 ![image](https://user-images.githubusercontent.com/93579262/206681582-1d8c2c21-7a79-4f38-9b58-3adda1b71239.png)
 
@@ -111,9 +111,9 @@ En allant sur "Option",vous arrivez sur la page suivantes :
 
 ![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
 
-tu peux choisir la langue(Français/anglais), et mettre le chemin par defaut.
+vous puvez choisir la langue(Français/anglais), et mettre le chemin par defaut.
 
-Actuellement , le bouton "Regarder les auvegardes" est en maintenance mais sera prêt lors de la prochaine update.
+Actuellement , le bouton "Regarder les sauvegardes" est en maintenance mais sera prêt lors de la prochaine update.
 
 ### Merci d'avoir choisie EasySave
 
