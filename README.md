@@ -62,7 +62,7 @@ Note also the presence of **include** and **extend**:
 #### explanation of software :
 The application launches and you arrive on this welcome page. Thanks to this one you can change the language first and put a delfaut path.
 
-![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
+![image](https://user-images.githubusercontent.com/93579262/206855001-3960816d-462c-45e6-9840-50665a5e838e.png)
 
 Following this, your going to encounter a page with 3 option,"creates saves","show saves","Options".
 
@@ -91,7 +91,7 @@ Actually , the button "show saves" is on maintenance but is going to be ready fo
 #### explication du logiciel :
 Au lancement de l'application, on arrive sur la page d'accueil qui permet de choisir la langue et de mettre un chemin par default. 
 
-![image](https://user-images.githubusercontent.com/93579262/206675992-b996f5c1-cb11-41bf-b44d-7a99697d1fcd.png)
+![image](https://user-images.githubusercontent.com/93579262/206855004-7a6bd046-58bd-48b3-a274-7d3db6e40bc6.png)
 
 Suivant cela, vous allez rencontrer une page avec comme option , "Creer une sauvegarde","Regarder les sauvegardes","Options".
 
