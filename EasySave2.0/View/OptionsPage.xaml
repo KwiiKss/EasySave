@@ -19,20 +19,12 @@
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Center" Height="42" Margin="0,398,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="MenuPage"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="LanguageText" Content="Change your language : " HorizontalAlignment="Left" Margin="86,140,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
-        <Label x:Name="ChangePath" Content="Change your default path : " HorizontalAlignment="Left" Margin="75,203,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="248,209,0,0" Text = "defaultpath" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
-        <ComboBox x:Name="LogType" Margin="248,233,174,186">
+        <Label x:Name="ChangePath" Content="Change your default path : " HorizontalAlignment="Left" Margin="75,227,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
+        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="248,233,0,0" Text="{Binding Defaultpath}" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <ComboBox x:Name="LogType" Margin="248,299,174,120">
             <Label>JSON</Label>
             <Label>XML</Label>
         </ComboBox>
-        <ListBox Margin="248,264,175,101">
-            <CheckBox>.png</CheckBox>
-            <CheckBox>.jpg</CheckBox>
-            <CheckBox>.txt</CheckBox>
-            <CheckBox>.jpeg</CheckBox>
-            <CheckBox>.exe</CheckBox>
-        </ListBox>
-        <Label x:Name="TypeLog" Content="Choose the Type of the log you want :" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top" Width="238" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <Label x:Name="ExtensionToCrypt" Content="Choose the Type of Extension to Crypt :" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" Width="248" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
+        <Label x:Name="TypeLog" Content="Choose the Type of the log you want :" HorizontalAlignment="Left" Margin="10,299,0,0" VerticalAlignment="Top" Width="238" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
     </Grid>
 </Window>

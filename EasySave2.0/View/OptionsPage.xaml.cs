@@ -15,6 +15,8 @@ using System.Text.Json.Serialization;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace EasySave2._0
 {
@@ -29,16 +31,16 @@ namespace EasySave2._0
             string fileName = "C:/Users/nicol/Desktop/option.json";
             string jsonString = File.ReadAllText(fileName);
             option InitOption = JsonSerializer.Deserialize<option>(jsonString)!;
-            Console.WriteLine(InitOption.Defaultpath, InitOption.Logtype);
+            DataContext = InitOption;
         }
-
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
 
         }
         private void MenuPage(object sender, MouseButtonEventArgs e)
         {
-            var newoption = new option() {
+            var newoption = new option()
+            {
                 Defaultpath = DefaultPath.Text,
                 Logtype = LogType.SelectedValue.ToString(),
             };
