@@ -17,8 +17,7 @@ To exit the application, simply return to the menu and then select the exit opti
 
 #### Class Diagram
 
-![Classe](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d04d1de0-3d65-4812-9cbe-7e139567fc7b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162128Z&X-Amz-Expires=86400&X-Amz-Signature=e806655588b4d2b0eb0a48b2a70d6680822e8badad02ffa35e2c75890a6e24c2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
-
+![image](https://user-images.githubusercontent.com/93579262/207008564-8d262584-6dc1-400c-82f8-252f8a49e227.png)
 The class diagram follow the model (MVVM), we decided that the main interface could only create a Local object which would launch functions allowing the establishment of the backups/deletes/creations in complete safety as proposed by C# .
 
 #### Activity Diagram
