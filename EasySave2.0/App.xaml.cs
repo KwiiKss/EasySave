@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Diagnostics;
 
 namespace EasySave2._0
 {
@@ -13,6 +14,13 @@ namespace EasySave2._0
     /// </summary>
     public partial class App : Application
     {
-        
+        private App()
+        {
+            Process[] EasySaveLaunch = Process.GetProcessesByName("EasySave2.0");
+            if (EasySaveLaunch.Length >1)
+            {
+                System.Windows.Application.Current.Shutdown();
+            }
+        }    
     }
 }
