@@ -17,7 +17,7 @@ To exit the application, simply return to the menu and then select the exit opti
 
 #### Class Diagram
 
-![image](https://user-images.githubusercontent.com/93579262/207008564-8d262584-6dc1-400c-82f8-252f8a49e227.png)
+![image](https://user-images.githubusercontent.com/93579262/207008978-da6d931c-45a0-4b46-9e6d-aea1359f77fc.png)
 The class diagram follow the model (MVVM), we decided that the main interface could only create a Local object which would launch functions allowing the establishment of the backups/deletes/creations in complete safety as proposed by C# .
 
 #### Activity Diagram
