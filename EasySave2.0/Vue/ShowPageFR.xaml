@@ -1,0 +1,22 @@
+﻿<Window x:Class="EasySave2._0.ShowPageFR"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave2._0"
+        mc:Ignorable="d"
+        Title="ShowPageFR" Height="482" Width="635">
+    <Window.Background>
+        <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
+    </Window.Background>
+    <Grid>
+        <Image x:Name="ShowSaveTitle" HorizontalAlignment="Center" Height="114" Margin="0,0,0,0" VerticalAlignment="Top" Width="377" Source="/vue/Sauvegardes.png"/>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="554,26,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
+        <ListView x:Name="listviewFR" Margin="63,161,45,53" MouseDown="LoadSavesFR"
+>
+        </ListView>
+        <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
+        <Label x:Name="SourceText_Copy" Content="Voici le contenu de votre dossier de sauvegardes :" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" Width="308" FontFamily="Segoe UI Black" FontWeight="Normal" Height="35" Foreground="#FFFDFDFD" RenderTransformOrigin="0.798,-2.322"/>
+    </Grid>
+</Window>

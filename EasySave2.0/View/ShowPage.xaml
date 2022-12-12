@@ -1,0 +1,22 @@
+﻿<Window x:Class="EasySave2._0.ShowPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave2._0"
+        mc:Ignorable="d"
+        Title="ShowPage" Height="482" Width="635">
+    <Window.Background>
+        <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
+    </Window.Background>
+    <Grid>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="541,26,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
+        <ListView x:Name="listviewEN" Margin="63,161,45,53" MouseDown="LoadSaves"
+>
+        </ListView>
+        <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
+        <Label x:Name="SourceText_Copy" Content="Here is the content of the folder :" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" Width="212" FontFamily="Segoe UI Black" FontWeight="Normal" Height="23" Foreground="#FFFDFDFD" RenderTransformOrigin="0.798,-2.322"/>
+        <Image x:Name="ShowSaveTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/View/Saves.png"/>
+    </Grid>
+</Window>
