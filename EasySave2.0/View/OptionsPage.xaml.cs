@@ -10,6 +10,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace EasySave2._0
 {
@@ -21,6 +26,10 @@ namespace EasySave2._0
         public OptionPage()
         {
             InitializeComponent();
+            string fileName = "C:/Users/nicol/Desktop/option.json";
+            string jsonString = File.ReadAllText(fileName);
+            option InitOption = JsonSerializer.Deserialize<option>(jsonString)!;
+            Console.WriteLine(InitOption.Defaultpath, InitOption.Logtype);
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
@@ -29,11 +38,31 @@ namespace EasySave2._0
         }
         private void MenuPage(object sender, MouseButtonEventArgs e)
         {
+            var newoption = new option() {
+                Defaultpath = DefaultPath.Text,
+                Logtype = LogType.SelectedValue.ToString(),
+            };
+
+
+            var option = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+
+            string jsonString = JsonSerializer.Serialize(newoption, option);
+            string fileName = "C:/Users/nicol/Desktop/option.json";
+            File.WriteAllText(fileName, jsonString);
+
             MenuPage window = new MenuPage();
             window.Top = this.Top;
             window.Left = this.Left;
             this.Close();
             window.Show();
         }
+    }
+    public class option
+    {
+        public string Defaultpath { get; set; }
+        public string Logtype { get; set; }
     }
 }

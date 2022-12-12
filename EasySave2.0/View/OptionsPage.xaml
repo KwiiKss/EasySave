@@ -12,20 +12,20 @@
     <Grid>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="OptionsTitle" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="284" Source="/View/OptionsTitle.png"/>
-        <Image x:Name="FrenchFlag" HorizontalAlignment="Center" Height="68" Margin="0,120,0,0" VerticalAlignment="Top" Width="100" Source="/View/FrenchFlag.jpg" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="FrenchFlag" HorizontalAlignment="Left" Height="68" Margin="304,120,0,0" VerticalAlignment="Top" Width="100" Source="/View/FrenchFlag.jpg" RenderTransformOrigin="1.03,0.458"/>
         <Image x:Name="EnglishFlag" HorizontalAlignment="Left" Height="68" Margin="478,120,0,0" VerticalAlignment="Top" Width="112" Source="/View/EnglishFlag.png" RenderTransformOrigin="0.5,0.5"/>
-        <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="224,146,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
+        <RadioButton x:Name="FrenchButton" Content="" HorizontalAlignment="Left" Margin="268,146,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
         <RadioButton x:Name="EnglishButton" Content="" HorizontalAlignment="Left" Margin="438,146,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" RenderTransformOrigin="0.719,1.161"/>
         <Image x:Name="ReturnMenuButton" HorizontalAlignment="Center" Height="42" Margin="0,398,0,0" VerticalAlignment="Top" Width="100" Source="/View/MenuButton.png" RenderTransformOrigin="0.5,0.5" MouseDown="MenuPage"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
-        <Label x:Name="LanguageText" Content="Change your language : " HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
+        <Label x:Name="LanguageText" Content="Change your language : " HorizontalAlignment="Left" Margin="86,140,0,0" VerticalAlignment="Top" Width="157" FontFamily="Segoe UI Black" FontWeight="Normal" Height="27" Foreground="#FFFDFDFD"/>
         <Label x:Name="ChangePath" Content="Change your default path : " HorizontalAlignment="Left" Margin="75,203,0,0" VerticalAlignment="Top" Width="168" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="248,209,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
-        <ComboBox Margin="248,233,174,186">
+        <TextBox x:Name="DefaultPath" HorizontalAlignment="Left" Margin="248,209,0,0" Text = "defaultpath" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <ComboBox x:Name="LogType" Margin="248,233,174,186">
             <Label>JSON</Label>
-            <Label>XAML</Label>
+            <Label>XML</Label>
         </ComboBox>
-        <ListBox Margin="248,264,175,115">
+        <ListBox Margin="248,264,175,101">
             <CheckBox>.png</CheckBox>
             <CheckBox>.jpg</CheckBox>
             <CheckBox>.txt</CheckBox>
@@ -33,6 +33,6 @@
             <CheckBox>.exe</CheckBox>
         </ListBox>
         <Label x:Name="TypeLog" Content="Choose the Type of the log you want :" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top" Width="238" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
-        <Label x:Name="ExtensionToCrypt" Content="Choose the Type of Extension to Crypt :" HorizontalAlignment="Left" Margin="0,290,0,0" VerticalAlignment="Top" Width="248" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
+        <Label x:Name="ExtensionToCrypt" Content="Choose the Type of Extension to Crypt :" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" Width="248" FontFamily="Segoe UI Black" FontWeight="Normal" Height="30" Foreground="#FFFDFDFD"/>
     </Grid>
 </Window>
