@@ -61,12 +61,5 @@ namespace EasySave2._0
             config.WriteLine(Data.Instance.DefaultPath);
             config.Close();
         }
-
-        private static string folder = @"F:\JEUX";
-        public static string Folder
-        {
-            get { return folder; }
-            set { folder = value; }
-        }
     }
 }

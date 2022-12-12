@@ -1,8 +1,8 @@
-﻿using System;
-using System.IO;
+﻿using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
-using System.Data;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,17 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Windows.Controls.Primitives;
 
 namespace EasySave2._0
 {
     /// <summary>
     /// Interaction logic for ShowPage.xaml
     /// </summary>
-    public partial class ShowPage : Window
+    public partial class ShowPageEN : Window
     {
-        public ShowPage()
+        public ShowPageEN()
         {
             InitializeComponent();
         }
@@ -37,7 +37,7 @@ namespace EasySave2._0
         private void LoadSaves(object sender, MouseButtonEventArgs e)
         {
             listviewEN.Items.Clear();
-            string Path = OptionsEN.Folder;
+            string Path = Data.Instance.DefaultPath;
 
             DirectoryInfo dinfo = new DirectoryInfo(Path);
 

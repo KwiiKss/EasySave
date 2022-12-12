@@ -38,7 +38,7 @@ namespace EasySave2._0
         private void LoadSavesFR(object sender, MouseButtonEventArgs e)
         {
             listviewFR.Items.Clear();
-            string Chemin = OptionsEN.Folder;
+            string Chemin = Data.Instance.DefaultPath;
 
             DirectoryInfo dinfo = new DirectoryInfo(Chemin);
 

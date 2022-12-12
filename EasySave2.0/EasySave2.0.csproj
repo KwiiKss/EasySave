@@ -101,6 +101,7 @@
     <None Remove="View\MoveFolderPage.png" />
     <None Remove="View\OptionsTitle.png" />
     <None Remove="View\ReturnButt.png" />
+    <None Remove="View\Saves.png" />
     <None Remove="View\ShowSavesButt.png" />
     <None Remove="View\WelcomeBienTitle.png" />
     <None Remove="Vue\CreerSauvButt.png" />
@@ -112,6 +113,7 @@
     <None Remove="Vue\EnglishFlag.jpg" />
     <None Remove="Vue\EnglishFlag.png" />
     <None Remove="Vue\RegaSauvButt.png" />
+    <None Remove="Vue\Sauvegardes.png" />
     <None Remove="welcome-29-11-2022.png" />
     <None Remove="welcome-Bienvenue-29-11-2022.png" />
     <None Remove="WelcomeBienTitle.png" />
@@ -137,6 +139,7 @@
     <Resource Include="View\MoveFolderPage.png" />
     <Resource Include="View\OptionsTitle.png" />
     <Resource Include="View\ReturnButt.png" />
+    <Resource Include="View\Saves.png" />
     <Resource Include="View\ShowSavesButt.png" />
     <Resource Include="View\WelcomeBienTitle.png" />
     <Resource Include="Vue\CreerSauvButt.png" />
@@ -148,6 +151,7 @@
     <Resource Include="Vue\EnglishFlag.jpg" />
     <Resource Include="Vue\EnglishFlag.png" />
     <Resource Include="Vue\RegaSauvButt.png" />
+    <Resource Include="Vue\Sauvegardes.png" />
   </ItemGroup>
 
 </Project>

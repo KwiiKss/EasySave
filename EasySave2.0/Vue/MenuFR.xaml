@@ -13,7 +13,7 @@
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="TitleMenu" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="344" Source="/View/EasySaveTitle.png"/>
         <Image x:Name="CreateButt" HorizontalAlignment="Center" Height="50" Margin="0,161,0,0" VerticalAlignment="Top" Width="264" Source="/Vue/CreerSauvButt.png" MouseDown="ChooseFR"/>
-        <Image x:Name="ShowButt" HorizontalAlignment="Center" Height="50" Margin="0,233,0,0" VerticalAlignment="Top" Width="297" Source="/Vue/RegaSauvButt.png" />
+        <Image x:Name="ShowButt" HorizontalAlignment="Center" Height="50" Margin="0,233,0,0" VerticalAlignment="Top" Width="297" Source="/Vue/RegaSauvButt.png" MouseDown="ShowPageFR"/>
         <Image x:Name="OptionsButt" HorizontalAlignment="Center" Height="55" Margin="0,331,0,0" VerticalAlignment="Top" Width="148" Source="/View/ButtonOptions.png" MouseDown="OptionsFR"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="Credits" Content="EasySave © by ProSoft - Kévin | Kilyion | Hugo | Nicolas" HorizontalAlignment="Left" Margin="10,418,0,0" VerticalAlignment="Top" Width="349" FontFamily="Segoe UI Black" FontWeight="Normal" Height="22" Foreground="White" FontSize="9"/>
