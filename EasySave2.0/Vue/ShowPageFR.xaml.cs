@@ -35,7 +35,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void LoadSavesFR(object sender, MouseButtonEventArgs e)
+        private void LoadSavesFR(object sender, RoutedEventArgs e)
         {
             listviewFR.Items.Clear();
             string Chemin = Data.Instance.DefaultPath;

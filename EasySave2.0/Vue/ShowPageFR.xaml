@@ -13,9 +13,7 @@
         <Image x:Name="ShowSaveTitle" HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="401" Source="/Vue/Sauvegardes.png" Margin="126,13,0,0"/>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="542,26,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
-        <ListView x:Name="listviewFR" Margin="63,161,45,53" MouseDown="LoadSavesFR"
->
-        </ListView>
+        <ListView x:Name="listviewFR" Margin="63,161,45,53" Loaded="LoadSavesFR" > </ListView>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText_Copy" Content="Voici le contenu de votre dossier de sauvegardes :" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" Width="308" FontFamily="Segoe UI Black" FontWeight="Normal" Height="35" Foreground="#FFFDFDFD" RenderTransformOrigin="0.798,-2.322"/>
     </Grid>

@@ -34,7 +34,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void LoadSaves(object sender, MouseButtonEventArgs e)
+        private void LoadSaves(object sender, RoutedEventArgs e)
         {
             listviewEN.Items.Clear();
             string Path = Data.Instance.DefaultPath;

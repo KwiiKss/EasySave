@@ -33,7 +33,6 @@ namespace EasySave2._0
             string FolderName = Path.GetFileName(SourceFolderName);
             string DestFolderName = DestinationFolder.Text + "\\" + FolderName;
             CreateSaves move = new CreateSaves();
-            move.MoveFolder(SourceFolderName, DestFolderName);
             if (move.MoveFolder(SourceFolderName, DestFolderName) == true)
             {
                 SuccessText.Content = SourceFolderName + "\n -> " + DestFolderName;

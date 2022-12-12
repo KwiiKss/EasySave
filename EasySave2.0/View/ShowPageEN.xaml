@@ -12,9 +12,7 @@
     <Grid>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="76" Margin="30,30,0,0" VerticalAlignment="Top" Width="66" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Image x:Name="ReturnButton" HorizontalAlignment="Left" Height="76" Margin="541,26,0,0" VerticalAlignment="Top" Width="66" Source="/View/ReturnButt.png" RenderTransformOrigin="1.626,0.47" MouseDown="ReturnButt"/>
-        <ListView x:Name="listviewEN" Margin="63,161,45,53" MouseDown="LoadSaves"
->
-        </ListView>
+        <ListView x:Name="listviewEN" Margin="63,161,45,53" Loaded="LoadSaves" > </ListView>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="SourceText_Copy" Content="Here is the content of the folder :" HorizontalAlignment="Center" Margin="0,121,0,0" VerticalAlignment="Top" Width="212" FontFamily="Segoe UI Black" FontWeight="Normal" Height="23" Foreground="#FFFDFDFD" RenderTransformOrigin="0.798,-2.322"/>
         <Image x:Name="ShowSaveTitle" HorizontalAlignment="Left" Height="106" Margin="189,10,0,0" VerticalAlignment="Top" Width="275" Source="/View/Saves.png"/>
