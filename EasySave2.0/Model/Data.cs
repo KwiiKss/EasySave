@@ -16,7 +16,12 @@ namespace EasySave2._0
             get; set;
         }
 
-        public string LanguageSet
+        public string Log
+        {
+            get; set;
+        }
+
+        public string LogPath
         {
             get; set;
         }

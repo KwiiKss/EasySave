@@ -24,10 +24,10 @@ namespace EasySave2._0
             {
                 FileInfo Filesize = new FileInfo(SourceFileName);
                 float size = Filesize.Length;
-                sw.Start(); 
+                sw.Start();
                 File.Move(SourceFileName, DestFileName);
                 sw.Stop();
-                FileLog(SourceFileName, DestFileName, size, sw.ElapsedMilliseconds, @"C:\Users\Corso\Desktop\Log\", "XML"); 
+                FileLog(SourceFileName, DestFileName, size, sw.ElapsedMilliseconds, Data.Instance.Log, "XML");
                 return true;
             }
             else
@@ -36,20 +36,19 @@ namespace EasySave2._0
                 return false;
             }
 
-            
+
         }
 
         public bool MoveFolder(string SourceFolderName, string DestFolderName)
-        {  
-             var sw = new Stopwatch();
+        {
+            var sw = new Stopwatch();
             Process[] proc = Process.GetProcessesByName("CalculatorApp");
             if (proc.Length == 0)
             {
-
                 sw.Start();
                 Directory.Move(SourceFolderName, DestFolderName);
-                 sw.Stop();
-                FileLog(SourceFolderName, DestFolderName,0, sw.ElapsedMilliseconds, @"C:\Users\Corso\Desktop\Log\", "XML");
+                sw.Stop();
+                FileLog(SourceFolderName, DestFolderName, 0, sw.ElapsedMilliseconds, Data.Instance.Log, "XML");
                 return true;
             }
             else
@@ -59,7 +58,7 @@ namespace EasySave2._0
             }
         }
 
-        public void FileLog(string SourceFileName, string DestFileName, float size, long time, string delfaultpath, string type) 
+        public void FileLog(string SourceFileName, string DestFileName, float size, long time, string delfaultpath, string type)
         {
 
             CreateSaves json = new CreateSaves();
@@ -112,7 +111,7 @@ namespace EasySave2._0
         }
 
 
-        private string SetJson(string path, string despath, float size, long time) 
+        private string SetJson(string path, string despath, float size, long time)
         {
             var option = new JsonSerializerOptions
             {
@@ -133,7 +132,7 @@ namespace EasySave2._0
             return jsonString;
         }
 
-        public string SetJsonState(string name, string path, string despath, float Filesize) 
+        public string SetJsonState(string name, string path, string despath, float Filesize)
         {
 
             var option = new JsonSerializerOptions
@@ -212,7 +211,7 @@ namespace EasySave2._0
 
 
     }
-    public class Json 
+    public class Json
     {
         public String name { get; set; }
         public String FileSource { get; set; }
