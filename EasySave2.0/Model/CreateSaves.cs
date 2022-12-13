@@ -27,7 +27,7 @@ namespace EasySave2._0
                 sw.Start();
                 File.Move(SourceFileName, DestFileName);
                 sw.Stop();
-                FileLog(SourceFileName, DestFileName, size, sw.ElapsedMilliseconds, Data.Instance.Log, "XML");
+                FileLog(SourceFileName, DestFileName, size, sw.ElapsedMilliseconds, Data.Instance.Log + "\\LogEasySave", "XML");
                 return true;
             }
             else
@@ -48,7 +48,7 @@ namespace EasySave2._0
                 sw.Start();
                 Directory.Move(SourceFolderName, DestFolderName);
                 sw.Stop();
-                FileLog(SourceFolderName, DestFolderName, 0, sw.ElapsedMilliseconds, Data.Instance.Log, "XML");
+                FileLog(SourceFolderName, DestFolderName, 0, sw.ElapsedMilliseconds, Data.Instance.Log + "\\LogEasySave", "XML");
                 return true;
             }
             else
@@ -64,7 +64,7 @@ namespace EasySave2._0
             CreateSaves json = new CreateSaves();
             if (type == "JSON")
             {
-                string path = delfaultpath + "daylog.txt";
+                string path = delfaultpath + "\\daylog.txt";
                 string Text = SetJson(SourceFileName, DestFileName, size, time);
 
                 if (File.Exists(path))
@@ -81,13 +81,13 @@ namespace EasySave2._0
             }
             else if (type == "XML")
             {
-                LogdayXMLType("logday", SourceFileName, DestFileName, size, delfaultpath + "daylog.xml");
+                LogdayXMLType("logday", SourceFileName, DestFileName, size, delfaultpath + "\\daylog.xml");
             }
 
             if (type == "JSON")
             {
                 {
-                    string path = delfaultpath + "statelog.txt";
+                    string path = delfaultpath + "\\statelog.txt";
 
                     string Text2 = SetJsonState("statelog", SourceFileName, DestFileName, size);
 
@@ -106,7 +106,7 @@ namespace EasySave2._0
             }
             else if (type == "XML")
             {
-                statedayXMLType("logday", SourceFileName, DestFileName, size, delfaultpath + "statelog.xml");
+                statedayXMLType("logday", SourceFileName, DestFileName, size, delfaultpath + "\\statelog.xml");
             }
         }
 

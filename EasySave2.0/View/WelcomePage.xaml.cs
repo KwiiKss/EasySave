@@ -26,8 +26,10 @@ namespace EasySave2._0
             InitializeComponent();
             Settings check = new Settings();
             check.ConfigFile();
-            
+            Settings log = new Settings();
+            log.LogFile();            
         }
+
         private void EnglishMenu(object sender, MouseButtonEventArgs e)
         {
             MenuEN window = new MenuEN();

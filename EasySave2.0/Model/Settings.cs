@@ -35,19 +35,6 @@ namespace EasySave2._0
             if (!Directory.Exists(Data.Instance.Log + "\\LogEasySave"))
             {
                 Directory.CreateDirectory(Data.Instance.Log + "\\LogEasySave");
-                Data.Instance.LogPath = Data.Instance.Log;
-            }
-            if (!File.Exists(Data.Instance.Log + "\\LogEasySave\\LogFile.json"))
-            {
-                StreamWriter log = new StreamWriter(Data.Instance.Log + "\\LogEasySave\\LogFile.json");
-                log.WriteLine(Data.Instance.Log);
-                log.Close();
-            }
-            if (File.Exists(Data.Instance.Log + "\\LogEasySave\\ConfigFile.json"))
-            {
-                StreamReader log = new StreamReader(Data.Instance.Log + "\\LogEasySave\\LogFile.json");
-                Data.Instance.LogPath = log.ReadLine();
-                log.Close();
             }
         }
     }
