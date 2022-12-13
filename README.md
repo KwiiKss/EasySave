@@ -9,11 +9,13 @@ Group 1 composed of Kévin LAURENT, Kilyion Romary, Hugo CORSO and Nicolas FOUQU
 # 1 | Diagrammes UML
 
 #### Sequence Diagram
-![Séquences](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f05d425f-3468-4bcc-a42e-e24ac300e84c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T161450Z&X-Amz-Expires=86400&X-Amz-Signature=218537648a2f17960ede228a112be06812210d7dbb88c59b8eec667fb5bf88e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![image](https://user-images.githubusercontent.com/93579262/207356573-3381d1a1-0911-4de5-8d9a-4d94f888d5a9.png)
 
-The class diagram is a simulation of our application and the different possibilities in it that are available to the user when using it.
-By starting the application the user will arrive on a welcome menu with different choices, he will have the possibility to change the language and also see the "About us" section. Following this we come to the main functionality of the application, moving files and folders divided into 2 menu options. Thanks to this diagram, we see that the application will search in the local, external or network disk for what is requested and will return the existing one. The user then redefines his save path and the application saves the user's item in the right place.
-To exit the application, simply return to the menu and then select the exit option and the application will close.
+The class diagram is a simulation of our application and the different possibilities it offers to the user when using it.
+By starting the application, the user will arrive on a welcome menu with the choice to choose a language. Then we come to the main page, you can choose between 3 options. we see what will happen if you move a file. The user then defines his path and  the destination path .
+he validates the blow.
+and we see the model displacement file.
+To quit the application, click on the cross
 
 #### Class Diagram
 
