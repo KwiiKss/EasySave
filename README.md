@@ -9,17 +9,17 @@ Group 1 composed of Kévin LAURENT, Kilyion Romary, Hugo CORSO and Nicolas FOUQU
 # 1 | Diagrammes UML
 
 #### Sequence Diagram
-![image](https://user-images.githubusercontent.com/93579262/207356573-3381d1a1-0911-4de5-8d9a-4d94f888d5a9.png)
+![Séquences](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f05d425f-3468-4bcc-a42e-e24ac300e84c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T161450Z&X-Amz-Expires=86400&X-Amz-Signature=218537648a2f17960ede228a112be06812210d7dbb88c59b8eec667fb5bf88e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
 The class diagram is a simulation of our application and the different possibilities it offers to the user when using it.
-By starting the application, the user will arrive on a welcome menu with the choice to choose a language. Then we come to the main page, you can choose between 3 options. we see what will happen if you move a file. The user then defines his path and  the destination path .
+By starting the application, the user will arrive on a welcome menu with the choice to choose a language. Then we come to the main page, you can choose between 3 options. we see what will happen if you move a file. The user then redefines his save path and the application saves the user's item in the right place.
 he validates the blow.
 and we see the model displacement file.
-To quit the application, click on the cross
+To quit the application, click on the cross.
 
 #### Class Diagram
 
-![image](https://user-images.githubusercontent.com/93579262/207008978-da6d931c-45a0-4b46-9e6d-aea1359f77fc.png)
+![image](https://user-images.githubusercontent.com/93579262/207011393-99c927bc-bf3d-4450-ac8d-036ae32fd88f.png)
 The class diagram follow the model (MVVM), we decided that the main interface could only create a Local object which would launch functions allowing the establishment of the backups/deletes/creations in complete safety as proposed by C# .
 
 #### Activity Diagram
