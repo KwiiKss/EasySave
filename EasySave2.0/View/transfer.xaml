@@ -1,0 +1,25 @@
+﻿<Window x:Class="EasySave2._0.tranfer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasySave2._0"
+        mc:Ignorable="d"
+        Title="transfer" Height="429" Width="608"
+        >
+    <Window.Background>
+        <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
+    </Window.Background>
+    <Grid>
+        <Image x:Name="MoveContentTitle" HorizontalAlignment="Center" Height="96" Margin="0,10,0,0" VerticalAlignment="Top" Width="439" Source="/View/ChoosePageTitle.png"/>
+        <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
+        <DataGrid x:Name="datagrid1" Margin="86,106,89,53" ItemsSource="{Binding}" Loaded="OnWindowLoaded">
+            <DataGrid.Columns>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="550,340,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="45,284,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
