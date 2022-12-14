@@ -64,6 +64,7 @@ Note also the presence of **include** and **extend**:
 
 
 ### Diagram use case
+![use case V3](https://user-images.githubusercontent.com/93580066/207735119-f68ca911-950e-4a2f-ac40-5de792dce002.png)
 
 
 
