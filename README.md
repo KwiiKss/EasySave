@@ -46,7 +46,7 @@ Note also the presence of **include** and **extend**:
 - The extend is present between **Create works files** and **Write logs** because the logs are created automatically when creating or moving a file.
 - For the include we find it between the **files** and the **folders** because it is possible to create, move, add a folder but this does not necessarily imply the creation or the movement of a file .
 
-# 1b | Diagrammes UML - Version 2.0
+# 1b | Diagrammes UML - Version 3.0
 
 #### Sequence Diagram
 
@@ -73,7 +73,38 @@ Note also the presence of **include** and **extend**:
 ======
 #### EasySave 2.0 :
 
-![WelcomePage](https://user-images.githubusercontent.com/93580066/204036895-2816ec8a-f39b-498b-aaa7-f4346605f201.png)
+![WelcomePage](https://user-images.githubusercontent.com/93579099/207647399-75adad24-8eb5-4c01-ba03-7036b19e6293.png)
+
+#Welcome to the Easy Save home page, you can now choose the language for your favorite application.
+
+![MenuEN](https://user-images.githubusercontent.com/93579099/207647496-0a834fbe-6159-4240-95bd-42165aea23fe.png)
+
+#Then you arrive on the main menu of the application where you can choose 3 options. So first you have the options that will be important to you.
+
+![OptionsEN](https://user-images.githubusercontent.com/93579099/207647555-98ee4d01-43cf-42a2-8761-c080c2a9d9a8.png)
+
+#On the options page, you can again change the language of your application by clicking on the desired flag.
+#You can also set the default path for the files and folders you want to move.
+#You can return to the main menu by pressing Menu.
+
+![ShowSavesEN](https://user-images.githubusercontent.com/93579099/207647624-725947f4-184a-418b-9de5-75d31b368994.png)
+
+#By clicking from the menu on the Show saves button, you will access all your files and folders that you have defined in the default path. The back button allows you to return to the main menu.
+
+![CreatesSavesEN](https://user-images.githubusercontent.com/93579099/207647706-2b2e70de-4a38-4773-882b-1ea60fc5cbb8.png)
+
+#By clicking on creates know you then access the choice of a file or folder move. Select based on what you want to do.
+
+![MoveFileEN](https://user-images.githubusercontent.com/93579099/207647892-21998658-1686-469f-830c-509cda5e6748.png)
+
+#This page will allow you to choose the source path of your file then to select if you wish to encrypt it and finally you choose the destination path.
+#Click on validate and your file will be moved.
+
+![MoveFolderEN](https://user-images.githubusercontent.com/93579099/207647925-2848b92a-d73e-47e4-b405-3c3e7752d4c2.png)
+
+#This page will allow you to choose the source path of your folder then to select if you wish to encrypt it and finally you choose the destination path.
+#Click on validate and your folder will be moved.
+#And don't forget, your calculator on prevents you from performing a file move.
 
 ### Thank you for choosing EasySave
 
