@@ -27,7 +27,7 @@ namespace EasySave2._0
                 sw.Start();
                 File.Move(SourceFileName, DestFileName);
                 sw.Stop();
-                FileLog(SourceFileName, DestFileName, size, sw.ElapsedMilliseconds, Data.Instance.Log, "XML");
+                FileLog(SourceFileName, DestFileName, size, sw.ElapsedMilliseconds, @"C:\Users\Corso\Desktop\Log\", "JSON");
                 return true;
             }
             else

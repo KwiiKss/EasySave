@@ -18,8 +18,9 @@
             <DataGrid.Columns>
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="550,340,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="45,284,0,0" VerticalAlignment="Top"/>
+        <Button Content="play" HorizontalAlignment="Left" Margin="550,340,0,0" VerticalAlignment="Top" Click="Button_Click" Width="40"/>
+        <ProgressBar x:Name="progressbar1" HorizontalAlignment="Center" Height="10" Margin="0,383,0,0" VerticalAlignment="Top" Width="456"/>
+        <Label x:Name="errorlabel" Content="" HorizontalAlignment="Left" Margin="10,350,0,36"/>
 
     </Grid>
 </Window>

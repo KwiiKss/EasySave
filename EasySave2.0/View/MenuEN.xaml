@@ -10,11 +10,15 @@
         <SolidColorBrush Opacity="1" Color="#FF7E53C9"></SolidColorBrush>
     </Window.Background>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="631*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
-        <Image x:Name="TitleMenu" HorizontalAlignment="Center" Height="106" Margin="0,10,0,0" VerticalAlignment="Top" Width="344" Source="/View/EasySaveTitle.png"/>
+        <Image x:Name="TitleMenu" HorizontalAlignment="Left" Height="106" Margin="146,10,0,0" VerticalAlignment="Top" Width="344" Source="/View/EasySaveTitle.png"/>
         <Image x:Name="CreateButt" HorizontalAlignment="Left" Height="55" Margin="89,185,0,0" VerticalAlignment="Top" Width="205" Source="/View/CreateSavesButt.png" MouseDown="ChooseEN"/>
         <Image x:Name="ShowButt" HorizontalAlignment="Left" Height="55" Margin="351,185,0,0" VerticalAlignment="Top" Width="191" Source="/View/ShowSavesButt.png" MouseDown="ShowPageEN"/>
-        <Image x:Name="OptionsButt" HorizontalAlignment="Center" Height="65" Margin="0,272,0,0" VerticalAlignment="Top" Width="176" Source="/View/ButtonOptions.png" MouseDown="OptionsEN"/>
+        <Image x:Name="OptionsButt" HorizontalAlignment="Left" Height="65" Margin="230,272,0,0" VerticalAlignment="Top" Width="176" Source="/View/ButtonOptions.png" MouseDown="OptionsEN"/>
         <Label x:Name="Version" Content="Version 2.0" HorizontalAlignment="Left" Margin="554,418,0,0" VerticalAlignment="Top" Width="71" FontFamily="Segoe UI Black" FontWeight="Normal" FontSize="9" Height="22" Foreground="#FFFDFDFD"/>
         <Label x:Name="Credits" Content="EasySave © by ProSoft - Kévin | Kilyion | Hugo | Nicolas" HorizontalAlignment="Left" Margin="10,418,0,0" VerticalAlignment="Top" Width="349" FontFamily="Segoe UI Black" FontWeight="Normal" Height="22" Foreground="White" FontSize="9"/>
 
