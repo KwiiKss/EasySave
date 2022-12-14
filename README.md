@@ -6,10 +6,10 @@ Group 1 composed of Kévin LAURENT, Kilyion Romary, Hugo CORSO and Nicolas FOUQU
 
 
 
-# 1 | Diagrammes UML
+# 1a | Diagrammes UML - Version 2.0
 
 #### Sequence Diagram
-![Séquences](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f05d425f-3468-4bcc-a42e-e24ac300e84c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T161450Z&X-Amz-Expires=86400&X-Amz-Signature=218537648a2f17960ede228a112be06812210d7dbb88c59b8eec667fb5bf88e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Sequence](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f05d425f-3468-4bcc-a42e-e24ac300e84c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T161450Z&X-Amz-Expires=86400&X-Amz-Signature=218537648a2f17960ede228a112be06812210d7dbb88c59b8eec667fb5bf88e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
 The class diagram is a simulation of our application and the different possibilities it offers to the user when using it.
 By starting the application, the user will arrive on a welcome menu with the choice to choose a language. Then we come to the main page, you can choose between 3 options. we see what will happen if you move a file. The user then redefines his save path and the application saves the user's item in the right place.
@@ -19,12 +19,12 @@ To quit the application, click on the cross.
 
 #### Class Diagram
 
-![image](https://user-images.githubusercontent.com/93579262/207011393-99c927bc-bf3d-4450-ac8d-036ae32fd88f.png)
+![Class](https://user-images.githubusercontent.com/93579262/207011393-99c927bc-bf3d-4450-ac8d-036ae32fd88f.png)
 The class diagram follow the model (MVVM), we decided that the main interface could only create a Local object which would launch functions allowing the establishment of the backups/deletes/creations in complete safety as proposed by C# .
 
 #### Activity Diagram
 
-![Activité](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/01eb167e-7fbe-4786-b94a-8050f508d5ba/Diagramme_Dactivit_Projet_2_Final_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162132Z&X-Amz-Expires=86400&X-Amz-Signature=e9bb9954c5173d42c06c10ea1f2fa200739e87244f551a8336a69c4f58fcc286&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Diagramme%2520D%27activit%25C3%25A9%2520Projet%25202%2520Final%2520%282%29.png%22&x-id=GetObject)
+![Activity](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/01eb167e-7fbe-4786-b94a-8050f508d5ba/Diagramme_Dactivit_Projet_2_Final_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162132Z&X-Amz-Expires=86400&X-Amz-Signature=e9bb9954c5173d42c06c10ea1f2fa200739e87244f551a8336a69c4f58fcc286&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Diagramme%2520D%27activit%25C3%25A9%2520Projet%25202%2520Final%2520%282%29.png%22&x-id=GetObject)
 
 Our activity diagram allows us to follow exactly the options, choices and chains of actions that will be performed during the execution of EasySave
 It also allows us to see at a glance the different features implemented and how they work.
@@ -46,6 +46,17 @@ Note also the presence of **include** and **extend**:
 - The extend is present between **Create works files** and **Write logs** because the logs are created automatically when creating or moving a file.
 - For the include we find it between the **files** and the **folders** because it is possible to create, move, add a folder but this does not necessarily imply the creation or the movement of a file .
 
+# 1b | Diagrammes UML - Version 2.0
+
+#### Sequence Diagram
+
+#### Class Diagram
+
+#### Activity Diagram
+
+### Diagram use case
+
+
 ***
 # 2 | Users
 
@@ -53,39 +64,16 @@ Note also the presence of **include** and **extend**:
 
 ### Console version
 * EasySave 1.0 - 25/11/2022 - https://github.com/KwiiKss/EasySave-1.0
-* EasySave 1.1 - 15/12/2022
+* EasySave 1.1 - 15/12/2022 - https://github.com/KwiiKss/EasySave-1.0
 
 ### Graphic version
-* EasySave 2.0 - 15/12/2022
-* EasySave 3.0 - 15/12/2022
+* EasySave 2.0 - 15/12/2022 - This repository
+* EasySave 3.0 - 15/12/2022 - This repository
 
 ======
-#### explanation of software :
-The application launches and you arrive on this welcome page. Thanks to this one you can change the language first and put a delfaut path.
+#### EasySave 2.0 :
 
-![image](https://user-images.githubusercontent.com/93579262/206855001-3960816d-462c-45e6-9840-50665a5e838e.png)
-
-Following this, your going to encounter a page with 3 option,"Creates saves","Show saves","Options".
-
-![image](https://user-images.githubusercontent.com/93579262/206676133-6059f12f-76e7-454a-918f-ddd57d842beb.png)
-
-If you press "creates saves", the next page going to ask if you want to move a folder or a file.
-
-![image](https://user-images.githubusercontent.com/93579262/206678374-ed2d500a-8949-4e2e-ae32-4c924c17f597.png)
-
-chose an option:
-
-![image](https://user-images.githubusercontent.com/93579262/206678452-d3aa02a5-f4e4-4e7f-a5aa-7c6cfdcb3f98.png)
-
-![image](https://user-images.githubusercontent.com/93579262/206678504-458b4c27-8d26-4f01-86bd-00a8fa455821.png)
-
-If you press "Options", you encourter this page:
-
-![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
-
-In this page you can chose your language ( French/english ) , and put a delfault path for you log file.
-
-Actually , the button "show saves" is on maintenance but is going to be ready for the next update.
+![WelcomePage](https://user-images.githubusercontent.com/93580066/204036895-2816ec8a-f39b-498b-aaa7-f4346605f201.png)
 
 ### Thank you for choosing EasySave
 
