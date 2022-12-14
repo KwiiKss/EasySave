@@ -1,6 +1,6 @@
 # System Programming Project - A3 IT
 
-## Programming a backup software called EasySave 2.0
+## Programming a backup software called EasySave 2.0 / EasySave 3.0
 
 Group 1 composed of Kévin LAURENT, Kilyion Romary, Hugo CORSO and Nicolas FOUQUE.
 
@@ -88,34 +88,5 @@ In this page you can chose your language ( French/english ) , and put a delfault
 Actually , the button "show saves" is on maintenance but is going to be ready for the next update.
 
 ### Thank you for choosing EasySave
-
-#### explication du logiciel :
-Au lancement de l'application, on arrive sur la page d'accueil qui permet de choisir la langue et de mettre un chemin par default. 
-
-![image](https://user-images.githubusercontent.com/93579262/206855004-7a6bd046-58bd-48b3-a274-7d3db6e40bc6.png)
-
-Suivant cela, vous allez rencontrer une page avec comme option , "Créer une sauvegarde","Regarder les sauvegardes","Options".
-
-![image](https://user-images.githubusercontent.com/93579262/206681582-1d8c2c21-7a79-4f38-9b58-3adda1b71239.png)
-
-En cliquant sur "Creer une sauvegarde", On arrive sur la page suivant qui vous demande de choisir si vous voulez deplacer un Dossier ou fichier
-
-![image](https://user-images.githubusercontent.com/93579262/206681829-c1c3aaa7-a691-4183-b79b-93fbe0c90225.png)
-
-Choisisez votre option, remplissez les textBox et appuyez sur Accepter pour déplacer le fichier/dossier:
-
-![image](https://user-images.githubusercontent.com/93579262/206682290-ade357ce-799e-4fd6-90c2-f5a548c1d3d6.png)
-
-![image](https://user-images.githubusercontent.com/93579262/206682332-73fc215c-401d-49e5-902b-c7f8e36a3330.png)
-
-En allant sur "Option",vous arrivez sur la page suivantes :
-
-![image](https://user-images.githubusercontent.com/93579262/206679006-c3183db8-f39a-440c-9496-e6be1883148a.png)
-
-vous pouvez choisir la langue(Français/anglais), et mettre le chemin par defaut.
-
-Actuellement , le bouton "Regarder les sauvegardes" est en maintenance mais sera disponible lors de la prochaine update.
-
-### Merci d'avoir choisie EasySave
 
 `Contact us if needed: kevin.laurent@viacesi.fr`
