@@ -50,11 +50,22 @@ Note also the presence of **include** and **extend**:
 
 #### Sequence Diagram
 
+![Diagramme de séquenceV3](https://user-images.githubusercontent.com/118260547/207660476-16d50f0b-eef2-4402-9af0-274ae31c7927.png)
+
+
 #### Class Diagram
+
+![Diagramme de Classe V3](https://user-images.githubusercontent.com/118260547/207660425-ffc643d6-93e5-4cb3-afdc-e179bf2f3493.png)
+
 
 #### Activity Diagram
 
+![Diagramme D'activité Projet 2 V3](https://user-images.githubusercontent.com/118260547/207660450-9596dcff-6445-4472-81a4-d88090f6eb32.png)
+
+
 ### Diagram use case
+
+
 
 
 ***
