@@ -12,6 +12,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Path = System.IO.Path;
 using Microsoft.WindowsAPICodePack.Dialogs;
+using System.Diagnostics;
+
 
 namespace EasySave
 {
@@ -30,6 +32,19 @@ namespace EasySave
             string FileName = Path.GetFileName(SourceFileName);
             string DestFileName = DestinationFile.Text + "\\" + FileName;
             CreateSaves move = new CreateSaves();
+
+            if (CryptoSoftFichier.IsChecked == true)
+            {
+                var processus = new Process();
+                processus.StartInfo.FileName = @"E:\A3\Prog Système\Crypto\1\CryptoSoft.exe";
+                processus.StartInfo.Arguments = SourceFileName;
+                processus.StartInfo.RedirectStandardOutput = true;
+                processus.StartInfo.UseShellExecute = false;
+                processus.StartInfo.CreateNoWindow = true;
+                processus.Start();
+                processus.WaitForExit();
+            }
+
             if (move.MoveFile(SourceFileName, DestFileName) == true)
             {
                 SuccessText.Content = SourceFileName + "\n -> " + DestFileName;

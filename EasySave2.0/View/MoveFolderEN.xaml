@@ -23,5 +23,6 @@
         <Image x:Name="Logo" HorizontalAlignment="Left" Height="80" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Source="/View/Logo.png" RenderTransformOrigin="1.626,0.47"/>
         <Button x:Name="SrchSourceFolder" Content=". . ." HorizontalAlignment="Left" Margin="524,165,0,0" VerticalAlignment="Top" Width="25" Height="18" Click="SearchSourceFolder"/>
         <Button x:Name="SrchDestFolder" Content=". . ." HorizontalAlignment="Left" Margin="524,256,0,0" VerticalAlignment="Top" Width="25" Height="18" Click="SearchDestFolder"/>
+        <CheckBox x:Name="CryptoSoftFolder" Content="Crypt" HorizontalAlignment="Left" Margin="128,195,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
