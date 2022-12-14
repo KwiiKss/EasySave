@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Diagnostics;
 
-namespace EasySave2._0
+namespace EasySave
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -16,7 +16,7 @@ namespace EasySave2._0
     {
         private App()
         {
-            Process[] EasySaveLaunch = Process.GetProcessesByName("EasySave2.0");
+            Process[] EasySaveLaunch = Process.GetProcessesByName("EasySave2.0"); //Création du processus dans le but de le quantifier afin d'y avoir une mono instance
             if (EasySaveLaunch.Length >1)
             {
                 System.Windows.Application.Current.Shutdown();

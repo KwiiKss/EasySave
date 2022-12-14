@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>EasySave2._0</RootNamespace>
+    <RootNamespace>EasySave</RootNamespace>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>EasySave.ico</ApplicationIcon>
   </PropertyGroup>

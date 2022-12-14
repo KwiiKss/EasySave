@@ -10,19 +10,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace EasySave2._0
+namespace EasySave
 {
-    /// <summary>
-    /// Logique d'interaction pour MenuFR.xaml
-    /// </summary>
     public partial class MenuFR : Window
     {
         public MenuFR()
         {
-            InitializeComponent();
+            InitializeComponent(); // Initialisation des composants de la page
         }
 
-        private void ChooseFR(object sender, MouseButtonEventArgs e)
+        private void ChooseFR(object sender, MouseButtonEventArgs e) // Event bouton qui envoie vers la page Choose (MoveFile ou MoveFolder)
         {
             ChooseFR window = new ChooseFR();
             window.Top = this.Top;
@@ -31,7 +28,7 @@ namespace EasySave2._0
             window.Show();
         }
         
-        private void ShowPageFR(object sender, MouseButtonEventArgs e)
+        private void ShowPageFR(object sender, MouseButtonEventArgs e) //Event bouton qui envoie vers la page ShowSaves
         {
             ShowPageFR window = new ShowPageFR();
             window.Top = this.Top;
@@ -40,7 +37,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void OptionsFR(object sender, MouseButtonEventArgs e)
+        private void OptionsFR(object sender, MouseButtonEventArgs e) //Event bouton qui envoie vers la page Options
         {
             OptionsFR window = new OptionsFR();
             window.Top = this.Top;

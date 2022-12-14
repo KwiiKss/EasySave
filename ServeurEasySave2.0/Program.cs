@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ServeurEasySave2._0
+namespace EasySave
 {
     class Program
     {

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace EasySave2._0
+namespace EasySave
 {
     class Settings
     {
-        public void ConfigFile()
+        public void ConfigFile() //Création d'un dossier et fichier config s'il n'existe pas et écriture du chemin par défaut
         {
             Data.Instance.Config = Directory.GetCurrentDirectory();
             if (!Directory.Exists(Data.Instance.Config + "\\ConfigEasySave"))
@@ -29,7 +29,7 @@ namespace EasySave2._0
             }
         }
 
-        public void LogFile()
+        public void LogFile() //Création d'un dossier et fichier Log s'il n'existe pas et écriture des fichiers logs dans celui ci
         {
             Data.Instance.Log = Directory.GetCurrentDirectory();
             if (!Directory.Exists(Data.Instance.Log + "\\LogEasySave"))

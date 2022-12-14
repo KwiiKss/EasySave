@@ -13,19 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EasySave2._0
+namespace EasySave
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MenuEN : Window
     {
         public MenuEN()
         {
-            InitializeComponent();
+            InitializeComponent(); //Initialisation des composants de la page
         }
 
-        private void ChooseEN(object sender, MouseButtonEventArgs e)
+        private void ChooseEN(object sender, MouseButtonEventArgs e) //Event bouton qui envoie vers la page Choose (MoveFile ou MoveFolder)
         {
             ChooseEN window = new ChooseEN();
             window.Top = this.Top;
@@ -34,7 +31,7 @@ namespace EasySave2._0
             window.Show();
         }
         
-        private void ShowPageEN(object sender, MouseButtonEventArgs e)
+        private void ShowPageEN(object sender, MouseButtonEventArgs e) //Event bouton qui envoie vers la page ShowSaves
         {
             ShowPageEN window = new ShowPageEN();
             window.Top = this.Top;
@@ -43,7 +40,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void OptionsEN(object sender, MouseButtonEventArgs e)
+        private void OptionsEN(object sender, MouseButtonEventArgs e) //Event bouton qui envoie vers la page Options
         {
             OptionsEN window = new OptionsEN();
             window.Top = this.Top;

@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 using System.Drawing;
 using System.Windows.Navigation;
 
-namespace EasySave2._0
+namespace EasySave
 {
     /// <summary>
     /// Logique d'interaction pour Page1.xaml
@@ -23,14 +23,14 @@ namespace EasySave2._0
     {
         public WelcomePage()
         {
-            InitializeComponent();
-            Settings check = new Settings();
+            InitializeComponent(); //Initialisation des composants de la page
+            Settings check = new Settings(); // Lacement de la méthode qui vérifie l'existance du fichier config
             check.ConfigFile();
-            Settings log = new Settings();
+            Settings log = new Settings(); // Lacement de la méthode qui vérifie l'existance du fichier log
             log.LogFile();            
         }
 
-        private void EnglishMenu(object sender, MouseButtonEventArgs e)
+        private void EnglishMenu(object sender, MouseButtonEventArgs e) //Event boutton qui envoie vers le menu anglais
         {
             MenuEN window = new MenuEN();
             window.Top = this.Top;
@@ -39,7 +39,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void FrenchMenu(object sender, MouseButtonEventArgs e)
+        private void FrenchMenu(object sender, MouseButtonEventArgs e) //Event boutton qui envoie vers le menu français
         {
             MenuFR window = new MenuFR();
             window.Top = this.Top;

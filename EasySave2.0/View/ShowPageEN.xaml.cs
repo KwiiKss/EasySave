@@ -13,19 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EasySave2._0
+namespace EasySave
 {
-    /// <summary>
-    /// Interaction logic for ShowPage.xaml
-    /// </summary>
     public partial class ShowPageEN : Window
     {
         public ShowPageEN()
         {
-            InitializeComponent();
+            InitializeComponent(); // Initialisation des composants de la page
         }
 
-        private void ReturnButt(object sender, MouseButtonEventArgs e)
+        private void ReturnButt(object sender, MouseButtonEventArgs e) // Event bouton qui permets de revenir à la page précédente
         {
             MenuEN window = new MenuEN();
             window.Top = this.Top;
@@ -34,7 +31,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void LoadSaves(object sender, RoutedEventArgs e)
+        private void LoadSaves(object sender, RoutedEventArgs e) // Méthode qui permets de récupérer les différents fichiers et dossiers du chemin par défaut
         {
             listviewEN.Items.Clear();
             string Path = Data.Instance.DefaultPath;

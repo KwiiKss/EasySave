@@ -2,26 +2,26 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EasySave2._0
+namespace EasySave
 {
     class Data
     {
-        public string Config
+        public string Config //Variable pour le fichier config
         {
             get; set;
         }
 
-        public string DefaultPath
+        public string DefaultPath //Variable du chemin par défaut
         {
             get; set;
         }
 
-        public string Log
+        public string Log //Variable du chemin des logs
         {
             get; set;
         }
 
-        public string LogPath
+        public string LogPath // Variable pour les logs
         {
             get; set;
         }

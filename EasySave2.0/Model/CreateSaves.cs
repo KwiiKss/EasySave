@@ -11,7 +11,7 @@ using System.Windows;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace EasySave2._0
+namespace EasySave
 {
 
     class CreateSaves

@@ -13,21 +13,18 @@ using System.Windows.Shapes;
 using Path = System.IO.Path;
 using Microsoft.WindowsAPICodePack.Dialogs;
 
-namespace EasySave2._0
+namespace EasySave
 {
-    /// <summary>
-    /// Logique d'interaction pour MoveFolderPage.xaml
-    /// </summary>
     public partial class MoveFolderEN : Window
     {
         public MoveFolderEN()
         {
-            InitializeComponent();
-            SourceFolder.Text = Data.Instance.DefaultPath;
+            InitializeComponent(); //Initialisation des composants de la page
+            SourceFolder.Text = Data.Instance.DefaultPath; // Ecriture sur la text box du chemin par défaut défini
             DestinationFolder.Text = Data.Instance.DefaultPath;
         }
 
-        private void Validate(object sender, RoutedEventArgs e)
+        private void Validate(object sender, RoutedEventArgs e) //Event bouton qui récupére les données des text box, et lance la méthode du déplacement de dossier
         {
 
             string SourceFolderName = SourceFolder.Text;
@@ -40,7 +37,7 @@ namespace EasySave2._0
             }
         }
 
-        private void SearchSourceFolder(object sender, RoutedEventArgs e)
+        private void SearchSourceFolder(object sender, RoutedEventArgs e) //Event bouton pour le choix du dossier source
         {
             var dialog = new CommonOpenFileDialog();
             dialog.IsFolderPicker = true;
@@ -51,7 +48,7 @@ namespace EasySave2._0
             }
         }
 
-        private void SearchDestFolder(object sender, RoutedEventArgs e)
+        private void SearchDestFolder(object sender, RoutedEventArgs e) //Event bouton pour le choix du dossier destination
         {
             var dialog = new CommonOpenFileDialog();
             dialog.IsFolderPicker = true;
@@ -62,7 +59,7 @@ namespace EasySave2._0
             }
         }
 
-        private void ReturnButt(object sender, MouseButtonEventArgs e)
+        private void ReturnButt(object sender, MouseButtonEventArgs e) //Event bouton pour revenir à la page précédente
         {
             ChooseEN window = new ChooseEN();
             window.Top = this.Top;
@@ -71,7 +68,7 @@ namespace EasySave2._0
             window.Show();
         }
 
-        private void ReturnMenu(object sender, MouseButtonEventArgs e)
+        private void ReturnMenu(object sender, MouseButtonEventArgs e) //Event bouton pour revenir à menu
         {
             MenuEN window = new MenuEN();
             window.Top = this.Top;
