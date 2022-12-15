@@ -6,7 +6,7 @@ Group 1 composed of Kévin LAURENT, Kilyion Romary, Hugo CORSO and Nicolas FOUQU
 
 
 
-# 1a | Diagrammes UML - Version 2.0
+# 1a | UML Diagrams - Version 2.0
 
 #### Sequence Diagram
 ![Sequence](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f05d425f-3468-4bcc-a42e-e24ac300e84c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T161450Z&X-Amz-Expires=86400&X-Amz-Signature=218537648a2f17960ede228a112be06812210d7dbb88c59b8eec667fb5bf88e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
@@ -46,7 +46,7 @@ Note also the presence of **include** and **extend**:
 - The extend is present between **Create works files** and **Write logs** because the logs are created automatically when creating or moving a file.
 - For the include we find it between the **files** and the **folders** because it is possible to create, move, add a folder but this does not necessarily imply the creation or the movement of a file .
 
-# 1b | Diagrammes UML - Version 3.0
+# 1b | UML Diagrams - Version 3.0
 
 #### Sequence Diagram
 
